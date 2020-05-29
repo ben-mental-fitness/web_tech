@@ -1,0 +1,76 @@
+/* navbar styling */
+nav, .dropdown-menu {
+  background-color: rgb(0, 255, 255);
+}
+
+nav a, .dropdown-item {
+  font-family: Tahoma, Geneva, sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+nav a.nav-link:hover, .dropdown-item:hover {
+  font-weight: bold;
+  color: rgb(0, 255, 255);
+  background-color: rgb(255, 255, 255);
+}
+
+a.page-name, a.page-name:hover {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  padding-right: 5vw;
+}
+
+/* footer styling */
+#footer {
+  background-color: rgb(133, 133, 133);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-link {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 1.7em;
+  color: rgb(0, 255, 255);
+}
+
+.footer-link:hover {
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(133, 133, 133);
+  background-color: rgb(0, 255, 255);
+}
+
+/* about page styling */
+#about-page {
+  width: 90vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Tahoma, Geneva, sans-serif;
+  color: rgb(133, 133, 133);
+}
+
+#about-row, #data-rep {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(240,240,240);
+}
+
+.about-title {
+  color: rgb(100, 100, 100);
+  font-size: 1.5em;
+}
+
+#data-rep {
+  text-align: center;
+}
+
+/* contact page styling */
+.form-group {
+  font-family: Tahoma, Geneva, sans-serif;
+  color: rgb(100, 100, 100);
+  font-size: 1.1em;
+}

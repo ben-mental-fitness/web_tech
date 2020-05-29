@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+  lang="en-GB" xml:lang="en-GB">
+
+<head>
+  <meta charset="UTF-8"/>
+  <link rel="shortcut icon" href="../../server/media/logo.jpg"/>
+  <title>CoVision - Contact</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="../css/index.css"/>
+
+  <!-- Js Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script type = "text/javascript" src="https://d3js.org/d3.v5.min.js"></script>
+  <script type = "text/javascript" src = "https://d3js.org/d3-dsv.v1.min.js"></script>
+</head>
+
+<body>
+  <!-- Page Header as navbar -->
+  <nav class="navbar navbar-expand-sm justify-content-left">
+
+    <!-- Logo -->
+    <a class="navbar-brand" href="../index.html">
+      <img src="../../server/media/logo.jpg" alt="Logo" style="width:40px;"/>
+    </a>
+
+    <a class="page-name">Contact</a>
+
+
+    <!-- Navbar Entries center -->
+    <ul class="navbar-nav">
+
+      <!-- Dropdown menu for vis' -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+          STORIES
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="../stories/one_earth.html">One Earth</a>
+          <a class="dropdown-item" href="../stories/the_passage_of_time.html">The Passage of Time</a>
+          <a class="dropdown-item" href="../stories/youre_the_boss.html">You're the Boss</a>
+          <a class="dropdown-item" href="../stories/who_said_what.html">WHO said what?</a>
+          <a class="dropdown-item" href="../stories/who_did_what.html">WHO did what?</a>
+          <a class="dropdown-item" href="../stories/magic_money_tree.html">Magic Money Tree</a>
+          <a class="dropdown-item" href="../stories/escape_rooms.html">Escape Rooms</a>
+          <a class="dropdown-item" href="../stories/one_people.html">One People</a>
+        </div>
+      </li>
+
+      <!-- Normal items -->
+      <li class="nav-item">
+        <a class="nav-link" href="../about/index.html">ABOUT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../data/index.html">DATA</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">CONTACT</a>
+      </li>
+
+    </ul>
+  </nav>
+
+  <!-- Main body -->
+  <div class="container-fluid">
+    <div class="row justify-content-around">
+
+      <div class="col-sm-3">
+        <div class="form-group">
+         <label for="contact-name">Your name</label>
+         <input type="text" class="form-control" id="contact-name"/>
+        </div>
+        <div class="form-group">
+         <label for="contact-email">Your email</label>
+         <input type="text" class="form-control" id="contact-email"/>
+        </div>
+        <div class="form-group">
+         <label for="contact-subject">Your message subject</label>
+         <input type="text" class="form-control" id="contact-subject"/>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="form-group">
+         <label for="comment">Your message</label>
+         <textarea class="form-control" rows="8" id="contact-body"></textarea>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="container-fluid" id="footer">
+    <div class="row">
+      <div class="col-sm-4">
+        <a class="footer-link" href="../data/index.html">Data</a>
+      </div>
+      <div class="col-sm-4">
+        <a class="footer-link" href="https://github.com/jacobsloga/covid-19">Github</a>
+      </div>
+      <div class="col-sm-4">
+        <a class="footer-link" href="#">Contact</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

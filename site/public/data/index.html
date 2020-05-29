@@ -4,12 +4,12 @@
 
 <head>
   <meta charset="UTF-8"/>
-  <link rel="shortcut icon" href="../media/logo.jpg"/>
-  <title>CoVision</title>
+  <link rel="shortcut icon" href="../../server/media/logo.jpg"/>
+  <title>CoVision - Data</title>
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="./css/index.css"/>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="../css/index.css"/>
 
   <!-- Js Scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -20,9 +20,17 @@
 </head>
 
 <body>
-
   <!-- Page Header as navbar -->
-  <nav class="navbar navbar-expand-sm justify-content-center">
+  <nav class="navbar navbar-expand-sm justify-content-left">
+
+    <!-- Logo -->
+    <a class="navbar-brand" href="../index.html">
+      <img src="../../server/media/logo.jpg" alt="Logo" style="width:40px;"/>
+    </a>
+
+    <a class="page-name">Data</a>
+
+
     <!-- Navbar Entries center -->
     <ul class="navbar-nav">
 
@@ -32,26 +40,26 @@
           STORIES
         </a>
         <div class="dropdown-menu">
-          <a class="dropdown-item" href="./stories/one_earth.html">One Earth</a>
-          <a class="dropdown-item" href="./stories/the_passage_of_time.html">The Passage of Time</a>
-          <a class="dropdown-item" href="./stories/youre_the_boss.html">You're the Boss</a>
-          <a class="dropdown-item" href="./stories/who_said_what.html">WHO said what?</a>
-          <a class="dropdown-item" href="./stories/who_did_what.html">WHO did what?</a>
-          <a class="dropdown-item" href="./stories/magic_money_tree.html">Magic Money Tree</a>
-          <a class="dropdown-item" href="./stories/escape_rooms.html">Escape Rooms</a>
-          <a class="dropdown-item" href="./stories/one_people.html">One People</a>
+          <a class="dropdown-item" href="../stories/one_earth.html">One Earth</a>
+          <a class="dropdown-item" href="../stories/the_passage_of_time.html">The Passage of Time</a>
+          <a class="dropdown-item" href="../stories/youre_the_boss.html">You're the Boss</a>
+          <a class="dropdown-item" href="../stories/who_said_what.html">WHO said what?</a>
+          <a class="dropdown-item" href="../stories/who_did_what.html">WHO did what?</a>
+          <a class="dropdown-item" href="../stories/magic_money_tree.html">Magic Money Tree</a>
+          <a class="dropdown-item" href="../stories/escape_rooms.html">Escape Rooms</a>
+          <a class="dropdown-item" href="../stories/one_people.html">One People</a>
         </div>
       </li>
 
       <!-- Normal items -->
       <li class="nav-item">
-        <a class="nav-link" href="./about/index.html">ABOUT</a>
+        <a class="nav-link" href="../about/index.html">ABOUT</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="./data/index.html">DATA</a>
+        <a class="nav-link" href="#">DATA</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="./contact/index.html">CONTACT</a>
+        <a class="nav-link" href="../contact/index.html">CONTACT</a>
       </li>
 
     </ul>
@@ -59,25 +67,26 @@
 
   <!-- Main body -->
   <div class="container-fluid">
-    <svg width="90vw" height="95vh"></svg>
+    <div class="container-fluid justify-content-center" id="data-rep">
+      <svg width="100%" height="500px" id="data-rep-vis"></svg>
+      <script type="module" language="javascript" src="./index.js"> </script>
+    </div>
   </div>
 
   <!-- Footer -->
   <div class="container-fluid" id="footer">
     <div class="row">
       <div class="col-sm-4">
-        <a class="footer-link" href="./data/index.html">Data</a>
+        <a class="footer-link" href="#">Data</a>
       </div>
       <div class="col-sm-4">
         <a class="footer-link" href="https://github.com/jacobsloga/covid-19">Github</a>
       </div>
       <div class="col-sm-4">
-        <a class="footer-link" href="./contact/index.html">Contact</a>
+        <a class="footer-link" href="../contact/index.html">Contact</a>
       </div>
     </div>
   </div>
 
-  <!-- Scripts -->
-  <script type="module" language = "javascript" src= "./index.js"> </script>
 </body>
 </html>

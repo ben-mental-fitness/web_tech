@@ -1,0 +1,2204 @@
+ 
+ 
+ 
+ 
+ 
+ 
+
+Coronavirus disease 2019 (COVID-19) 
+Situation Report – 72 
+
+Data as reported by national authorities by 10:00 CET 1 April 2020  
+
+ 
+
+ 
+
+ 
+
+HIGHLIGHTS 
+ 
+
+•  Three new countries/territories/areas reported cases of COVID-19 in the past 
+
+24 hours: Botswana, Burundi, and Sierra Leone. 
+
+•  WHO has released a scientific brief on the off-label use of medicines for 
+COVID-19. A number of medicines have been suggested as potential 
+investigational therapies, many of which are now being or will soon be studied 
+in clinical trials, including the SOLIDARITY trial co-sponsored by WHO and 
+participating countries. More information can be found here. 
+
+•  WHO  recognizes  the  importance  of  addressing  the  needs  of  refugees  and 
+migrants when preparing for or responding to the COVID-19 pandemic. WHO 
+European  Region  has  released  a  guidance  document  to  assist  healthcare 
+working with refugees and migrants. More information can be found here. 
+
+•  At a press briefing, yesterday, PAHO Director Dr. Carissa Etienne stressed that 
+countries of the Americas must act now to slow the spread of COVID-19. WHO 
+encourages countries to prepare hospitals and health facilities, protect their 
+health personnel, and decide what social distancing measures need to be 
+implemented and for how long, among other actions. Find more here. 
+
+•  Public health and social measures to slow or stop the spread of COVID-19 
+must be implemented with the full engagement of all members of society. 
+WHO has described four levels of COVID-19 transmission with varying public 
+health and social measures depending on the local evolution of the COVID-19 
+pandemic. For more details, please see ‘Subject in Focus’. 
+
+ 
+
+Figure 1. Countries, territories or areas with reported confirmed cases of COVID-19, 1 April 2020   
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+SITUATION IN NUMBERS 
+total (new) cases in last 24 hours 
+
+ 
+Globally  
+823 626 confirmed (72 736)                 
+40 598 deaths (4193) 
+ 
+Western Pacific Region 
+106 422 confirmed (1554)                 
+3701 deaths (30) 
+ 
+European Region 
+464 212 confirmed (40 266) 
+30 089 deaths (3395) 
+ 
+South-East Asia Region 
+5175 confirmed (960)                 
+195 deaths (29) 
+ 
+Eastern Mediterranean Region 
+54 281 confirmed (3932)                 
+3115 deaths (161) 
+ 
+Region of the Americas 
+188 751 confirmed (25 737)                 
+3400 deaths (564) 
+ 
+African Region 
+4073 confirmed (287)                 
+91 deaths (14) 
+ 
+WHO RISK ASSESSMENT 
+Very High 
+Global Level 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+
+      
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+  
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+SUBJECT IN FOCUS: Public Health and Social Measures for the COVID-19 Pandemic 
+ 
+The purpose of this note is to outline public health and social measures useful for slowing or stopping the spread of 
+COVID-19 at national or community level. Guidance for case finding and management, personal and environmental 
+measures, travel measures, and mass gatherings is available on the WHO website available here. 
+ 
+Public health and social measures are measures or actions by individuals, institutions, communities, local and 
+national governments and international bodies to slow or stop the spread of COVID-19. These measures to reduce 
+transmission of COVID-19 include individual and environmental measures, detecting and isolating cases, contact-
+tracing and quarantine, social and physical distancing measures including for mass gatherings, international travel 
+measures, and vaccines and treatments. While vaccines and specific medications are not yet available for COVID-19, 
+other public health and social measures play an essential role in reducing the number of infections and saving lives.   
+ 
+Social and physical distancing measures aim to slow the spread of disease by stopping chains of transmission of 
+COVID-19 and preventing new ones from appearing. These measures secure physical distance between people (of at 
+least one metre), and reduce contact with contaminated surfaces, while encouraging and sustaining virtual social 
+connection within families and communities. Measures for the general public include introducing flexible work 
+arrangements such as teleworking, distance learning, reducing and avoiding crowding, closure of non-essential 
+facilities and services, shielding and protection for vulnerable groups, local or national movement restrictions and 
+staying-at home measures, and coordinated reorganization of health care and social services networks to protect 
+hospitals. The measures are used in conjunction with individual protective measures against COVID-19 such as 
+frequent hand washing and cough etiquette.  
+ 
+All public health measures to stop disease spread can be balanced with adaptive strategies to encourage community 
+resilience and social connection, protect incomes and secure the food supply. Countries should balance the possible 
+benefits and negative consequences of each intervention and deploy strategies to encourage community 
+engagement, gain trust and limit social or economic harm. There are many strategies that can support community 
+resilience and mental health, protect access to essential goods and services, and limit the economic impact of stay-
+at-home measures where these are deemed necessary. For example, organizing work-sites to ensure physical 
+distance between persons, such as staggering shifts over time, or converting on-site service to home delivery may 
+help to keep more businesses open. Tele-working and tele-schooling strategies in different contexts demonstrate 
+innovation and the role of technology in supporting business continuity and sustaining social connection within 
+families and communities. In general, implementation of distancing measures should also aim to sustain personal 
+and professional community connections by virtual means and technology, including widely accessible means such 
+as radio and mobile phones. 
+ 
+Alongside all these measures remains there is the critical to test all suspected cases of COVID-19 wherever possible, 
+promptly isolate cases, trace contacts to the widest extent possible, and ensure quarantine of contacts for the 
+duration of the incubation period. This goes for any context or level of spread of the pandemic in a country, in order 
+to deepen the benefits of social measures. Social measures should make the task of contact tracing much easier as 
+the number of contacts rapidly dwindles and eventually the number of cases declines as well. As social measures are 
+lifted, it is essential to continue to strengthen case-finding, isolation for COVID-19 cases and quarantine of contacts, 
+in order to respond to resurgent or imported cases. Coordinated reorganization of health and social services is 
+essential to assess and test persons rapidly, treat patients effectively, and protect hospitals and health personnel.   
+ 
+WHO has described four levels of COVID-19 transmission. These are countries or local areas with: 1. No cases 
+reported. 2. Sporadic cases. 3. Clusters of cases (grouped in place and time), or 4. Community transmission. 
+Countries are putting in place a range of public health and social measures in different combinations and at varying 
+times in the local evolution of the COVID-19 pandemic. The alignment of public health measures to levels of 
+transmission in a community is not fixed in stone. Countries may wish to specify which measures are to be taken at 
+each level and review the situation regularly. A package of measures may be applied at local, regional or national 
+level and adjusted as needed, considering aspects such as culture, living environments, terrain and access to needed 
+resources. Essential services should remain operational and governments should put in place social and economic 
+policies to limit the longer term economic impact, support community resilience and enable rapid recovery. Most 
+importantly, the ultimate aim is to ‘walk back’ community transmission to clusters, sporadic cases, and down to no 
+cases at all, and to begin gradually lifting social measures as soon as it is safe to do so. Guidance for lifting measures 
+
+is being developed.  
+ 
+To be effective, public health measures must be implemented with the full engagement of all members of society, 
+including communities and professional groups. All measures should be accompanied with clear, accessible and 
+regular risk communication to explain the response strategy and enable people to make informed decisions to 
+protect themselves and help achieve the public health goal of ending the outbreak.  
+ 
+A table summarizing public health and social measures to support control of COVID-19 will be available shortly at 
+www.who.int/epi-win. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+SURVEILLANCE  
+ 
+Table 1. Countries, territories or areas with reported laboratory-confirmed COVID-19 cases and deaths. Data as of 
+1 April 2020* 
+
+Reporting Country/ 
+Territory/Area† 
+
+Total 
+confirmed
+‡ cases 
+
+Total 
+confirmed 
+new cases 
+
+Total 
+deaths 
+
+Total 
+new 
+deaths 
+
+Transmission 
+classification§ 
+
+Days since last 
+reported case 
+
+Local transmission 
+Imported cases only 
+
+6 
+11 
+
+Western Pacific Region 
+China 
+Republic of Korea 
+Australia 
+Malaysia 
+Japan 
+Philippines 
+Singapore 
+New Zealand 
+Viet Nam 
+Brunei Darussalam 
+Cambodia 
+Mongolia 
+Lao People's 
+Democratic Republic 
+Fiji 
+Papua New Guinea 
+Territories** 
+Guam 
+French Polynesia 
+New Caledonia 
+Northern Mariana 
+Islands 
+(Commonwealth of 
+the) 
+
+European Region  
+Italy 
+Spain 
+Germany 
+France 
+The United Kingdom 
+Switzerland 
+Turkey 
+Belgium 
+Netherlands 
+Austria 
+Portugal 
+Israel 
+Norway 
+Sweden 
+Czechia 
+
+82631 
+9887 
+4707 
+2766 
+2178 
+2084 
+926 
+647 
+207 
+129 
+109 
+12 
+9 
+
+5 
+1 
+
+69 
+37 
+16 
+2 
+
+105792 
+94417 
+67366 
+51477 
+25154 
+16108 
+13531 
+12775 
+12595 
+10182 
+7443 
+5129 
+4447 
+4435 
+3308 
+
+86 
+101 
+348 
+140 
+225 
+538 
+47 
+47 
+4 
+2 
+2 
+0 
+1 
+
+0 
+0 
+
+11 
+1 
+1 
+0 
+
+4053 
+9222 
+5453 
+7500 
+3009 
+696 
+2704 
+876 
+845 
+564 
+1035 
+298 
+221 
+407 
+306 
+
+3321 
+165 
+20 
+43 
+57 
+88 
+3 
+1 
+0 
+1 
+0 
+0 
+0 
+
+0 
+0 
+
+2 
+0 
+0 
+0 
+
+12430 
+8189 
+732 
+3514 
+1789 
+373 
+214 
+705 
+1039 
+128 
+160 
+21 
+28 
+180 
+31 
+
+7 
+3 
+2 
+6 
+1 
+10 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+
+0 
+0 
+
+1 
+0 
+0 
+0 
+
+839 
+849 
+149 
+497 
+381 
+78 
+46 
+192 
+175 
+20 
+20 
+4 
+2 
+34 
+7 
+
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Imported cases only 
+Local transmission 
+
+Local transmission 
+Local transmission 
+Local transmission 
+Under investigation 
+
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+4 
+0 
+
+0 
+0 
+0 
+3 
+
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+
+3235 
+2860 
+2337 
+2311 
+2245 
+2178 
+1384 
+1314 
+1135 
+900 
+867 
+814 
+745 
+669 
+533 
+532 
+492 
+413 
+
+399 
+398 
+376 
+363 
+353 
+348 
+329 
+298 
+262 
+243 
+236 
+173 
+167 
+152 
+115 
+111 
+105 
+68 
+52 
+6 
+
+169 
+112 
+69 
+63 
+60 
+52 
+10 
+
+Ireland 
+Denmark 
+Russian Federation 
+Poland 
+Romania 
+Luxembourg 
+Finland 
+Greece 
+Iceland 
+Serbia 
+Croatia 
+Slovenia 
+Estonia 
+Ukraine 
+Lithuania 
+Armenia 
+Hungary 
+Bosnia and 
+Herzegovina 
+Bulgaria 
+Latvia 
+Andorra 
+Slovakia 
+Republic of Moldova 
+Kazakhstan 
+North Macedonia 
+Azerbaijan 
+Cyprus 
+Albania 
+San Marino 
+Uzbekistan 
+Malta 
+Belarus 
+Georgia 
+Kyrgyzstan 
+Montenegro 
+Liechtenstein 
+Monaco 
+Holy See 
+Territories** 
+Faroe Islands 
+Kosovo[1]  
+Gibraltar 
+Jersey 
+Guernsey 
+Isle of Man 
+Greenland 
+South-East Asia Region 
+Thailand 
+India 
+
+325 
+283 
+500 
+256 
+293 
+190 
+71 
+102 
+49 
+115 
+77 
+51 
+30 
+120 
+49 
+50 
+45 
+54 
+
+40 
+22 
+6 
+27 
+55 
+36 
+44 
+25 
+32 
+20 
+6 
+24 
+11 
+0 
+12 
+4 
+14 
+4 
+3 
+0 
+
+1 
+6 
+0 
+0 
+15 
+10 
+0 
+
+1771 
+1636 
+
+247 
+565 
+
+71 
+90 
+17 
+33 
+69 
+23 
+17 
+49 
+2 
+13 
+6 
+13 
+4 
+17 
+7 
+3 
+16 
+12 
+
+8 
+0 
+12 
+0 
+3 
+2 
+9 
+5 
+8 
+13 
+26 
+2 
+0 
+0 
+0 
+0 
+2 
+0 
+0 
+0 
+
+0 
+1 
+0 
+2 
+1 
+0 
+0 
+
+12 
+38 
+
+17 
+13 
+8 
+2 
+25 
+1 
+4 
+6 
+0 
+0 
+0 
+2 
+1 
+4 
+0 
+0 
+1 
+3 
+
+0 
+0 
+4 
+0 
+1 
+1 
+2 
+1 
+1 
+2 
+1 
+0 
+0 
+0 
+0 
+0 
+1 
+0 
+0 
+0 
+
+0 
+0 
+0 
+0 
+1 
+0 
+0 
+
+3 
+9 
+
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Under investigation 
+Local transmission 
+Under investigation 
+
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Under investigation 
+
+Local transmission 
+Local transmission 
+
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+2 
+0 
+0 
+0 
+0 
+0 
+2 
+
+0 
+0 
+1 
+2 
+0 
+0 
+3 
+
+0 
+0 
+
+44606 
+
+3111 
+
+2898 
+
+141 
+
+Local transmission 
+
+2039 
+1563 
+781 
+710 
+694 
+664 
+638 
+567 
+463 
+394 
+289 
+274 
+210 
+192 
+31 
+10 
+10 
+7 
+5 
+
+1528 
+Indonesia 
+143 
+Sri Lanka 
+54 
+Bangladesh 
+18 
+Maldives 
+15 
+Myanmar 
+5 
+Nepal 
+4 
+Bhutan 
+Timor-Leste 
+1 
+Eastern Mediterranean Region 
+Iran (Islamic Republic 
+of) 
+Pakistan 
+Saudi Arabia 
+Qatar 
+Egypt 
+Iraq 
+United Arab Emirates 
+Morocco 
+Bahrain 
+Lebanon 
+Tunisia 
+Kuwait 
+Jordan 
+Oman 
+Afghanistan 
+Djibouti 
+Libya 
+Syrian Arab Republic 
+Sudan 
+Somalia 
+Territories** 
+occupied Palestinian 
+territory 
+Region of the Americas 
+United States of 
+America 
+Canada 
+Brazil 
+Chile 
+Ecuador 
+Dominican Republic 
+Mexico 
+Peru 
+Panama 
+Argentina 
+Colombia 
+Uruguay 
+Costa Rica 
+Cuba 
+Honduras 
+
+7695 
+4579 
+2738 
+2240 
+1109 
+1094 
+1065 
+989 
+966 
+798 
+320 
+314 
+186 
+139 
+
+134 
+
+114 
+23 
+5 
+1 
+5 
+0 
+0 
+0 
+
+174 
+110 
+88 
+54 
+64 
+53 
+64 
+52 
+17 
+32 
+23 
+6 
+31 
+26 
+5 
+2 
+0 
+1 
+2 
+
+17 
+
+1378 
+323 
+289 
+278 
+208 
+101 
+213 
+0 
+146 
+96 
+11 
+0 
+16 
+0 
+
+136 
+2 
+6 
+0 
+1 
+0 
+0 
+0 
+
+26 
+10 
+2 
+46 
+50 
+6 
+36 
+4 
+12 
+10 
+0 
+5 
+1 
+4 
+0 
+0 
+2 
+2 
+0 
+
+1 
+
+89 
+159 
+12 
+75 
+51 
+28 
+24 
+24 
+24 
+14 
+1 
+2 
+6 
+2 
+
+14 
+1 
+1 
+0 
+1 
+0 
+0 
+0 
+
+1 
+2 
+1 
+5 
+4 
+1 
+3 
+0 
+1 
+1 
+0 
+0 
+1 
+0 
+0 
+0 
+0 
+0 
+0 
+
+0 
+
+23 
+23 
+4 
+15 
+9 
+8 
+13 
+0 
+4 
+4 
+1 
+0 
+2 
+0 
+
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Imported cases only 
+Imported cases only 
+Under investigation 
+
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Imported cases only 
+Imported cases only 
+Imported cases only 
+
+Local transmission 
+ 
+
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+
+163199 
+
+22559 
+
+2850 
+
+452 
+
+Local transmission 
+
+0 
+0 
+0 
+0 
+0 
+3 
+2 
+11 
+
+0 
+
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+1 
+0 
+0 
+
+0 
+
+0 
+
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+1 
+0 
+0 
+0 
+1 
+0 
+1 
+
+129 
+
+107 
+
+0 
+
+10 
+
+Venezuela (Bolivarian 
+Republic of) 
+Bolivia (Plurinational 
+State of) 
+Trinidad and Tobago 
+Paraguay 
+Guatemala 
+Jamaica 
+Barbados 
+El Salvador 
+Haiti 
+Bahamas 
+Guyana 
+Dominica 
+Grenada 
+Saint Lucia 
+Saint Kitts and Nevis 
+Suriname 
+Antigua and Barbuda 
+Nicaragua 
+Belize 
+Saint Vincent and the 
+Grenadines 
+Territories** 
+Puerto Rico 
+Martinique 
+Guadeloupe 
+Aruba 
+French Guiana 
+United States Virgin 
+Islands 
+Bermuda 
+Saint Martin 
+Cayman Islands 
+Curaçao 
+Saint Barthélemy 
+Sint Maarten 
+Montserrat 
+Turks and Caicos 
+Islands 
+British Virgin Islands 
+Anguilla 
+African Region 
+South Africa 
+Algeria 
+Burkina Faso 
+Senegal 
+Cote d’Ivoire 
+Ghana 
+Mauritius 
+
+85 
+65 
+36 
+36 
+33 
+30 
+15 
+14 
+12 
+11 
+9 
+9 
+8 
+8 
+7 
+4 
+3 
+1 
+
+239 
+119 
+114 
+55 
+46 
+30 
+
+27 
+18 
+12 
+11 
+6 
+6 
+5 
+5 
+
+3 
+2 
+
+1353 
+584 
+261 
+175 
+169 
+152 
+143 
+
+3 
+1 
+0 
+0 
+0 
+0 
+0 
+0 
+4 
+0 
+0 
+0 
+6 
+0 
+0 
+0 
+0 
+0 
+
+5 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+
+1 
+0 
+
+65 
+8 
+8 
+5 
+3 
+0 
+
+27 
+73 
+15 
+13 
+0 
+0 
+36 
+
+3 
+
+6 
+
+3 
+3 
+1 
+1 
+0 
+0 
+0 
+0 
+2 
+0 
+0 
+0 
+0 
+0 
+0 
+1 
+0 
+0 
+
+8 
+2 
+5 
+0 
+0 
+0 
+
+0 
+2 
+1 
+1 
+0 
+0 
+0 
+0 
+
+0 
+0 
+
+5 
+35 
+14 
+0 
+0 
+5 
+5 
+
+0 
+
+1 
+
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+1 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+
+2 
+0 
+1 
+0 
+0 
+0 
+
+0 
+1 
+0 
+0 
+0 
+0 
+0 
+0 
+
+0 
+0 
+
+2 
+4 
+2 
+0 
+0 
+0 
+3 
+
+Local transmission 
+
+Local transmission 
+
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Imported cases only 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Imported cases only 
+Imported cases only 
+Imported cases only 
+Imported cases only 
+Local transmission 
+Imported cases only 
+
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+
+Local transmission 
+Under investigation 
+Imported cases only 
+Imported cases only 
+Under investigation 
+Imported cases only 
+Imported cases only 
+Local transmission 
+
+Imported cases only 
+Local transmission 
+
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+
+1 
+
+0 
+
+0 
+0 
+1 
+1 
+1 
+1 
+2 
+1 
+0 
+5 
+1 
+1 
+0 
+4 
+4 
+3 
+1 
+19 
+
+0 
+0 
+0 
+0 
+0 
+1 
+
+0 
+1 
+1 
+1 
+1 
+1 
+4 
+1 
+
+0 
+5 
+
+0 
+0 
+0 
+0 
+1 
+2 
+0 
+
+6 
+1 
+8 
+
+1 
+1 
+0 
+
+0 
+0 
+0 
+
+0 
+0 
+11 
+
+139 
+111 
+109 
+
+0 
+0 
+1 
+0 
+1 
+0 
+0 
+3 
+0 
+1 
+
+0 
+0 
+0 
+1 
+1 
+2 
+0 
+2 
+4 
+1 
+
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+1 
+
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+1 
+2 
+0 
+1 
+0 
+
+0 
+0 
+0 
+0 
+3 
+0 
+7 
+0 
+0 
+3 
+5 
+2 
+0 
+0 
+
+75 
+53 
+50 
+35 
+34 
+33 
+26 
+20 
+19 
+19 
+
+5 
+7 
+12 
+0 
+0 
+0 
+3 
+0 
+0 
+0 
+
+18 
+16 
+14 
+11 
+9 
+9 
+9 
+8 
+8 
+8 
+7 
+7 
+7 
+6 
+
+Local transmission 
+Local transmission 
+Local transmission 
+
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Imported cases only 
+Under investigation 
+
+Cameroon 
+Nigeria 
+Democratic Republic 
+of the Congo 
+Rwanda 
+Madagascar 
+Kenya 
+Zambia 
+Togo 
+Uganda 
+Ethiopia 
+Niger 
+Congo 
+United Republic of 
+Tanzania 
+Mali 
+Guinea 
+Equatorial Guinea 
+Namibia 
+Benin 
+Eswatini 
+Guinea-Bissau 
+Mozambique 
+Seychelles 
+Zimbabwe 
+Angola 
+Chad 
+Gabon 
+Central African 
+Republic 
+Eritrea 
+Cabo Verde 
+Mauritania 
+Botswana 
+Gambia 
+Liberia 
+Burundi 
+Sierra Leone 
+Territories** 
+Réunion 
+Mayotte 
+Subtotal for all 
+regions 
+International 
+conveyance (Diamond 
+Princess) 
+Grand total 
+*Numbers include both domestic and repatriated cases 
+†The designations employed and the presentation of the material in this publication do not imply the expression of any opinion whatsoever on 
+the part of WHO concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its 
+frontiers or boundaries. Dotted and dashed lines on maps represent approximate border lines for which there may not yet be full agreement. 
+
+Local transmission 
+Local transmission 
+Local transmission 
+Imported cases only 
+Imported cases only 
+Imported cases only 
+Imported cases only 
+Local transmission 
+Imported cases only 
+Local transmission 
+Imported cases only 
+Imported cases only 
+Imported cases only 
+Imported cases only 
+
+Imported cases only 
+Imported cases only 
+Imported cases only 
+Imported cases only 
+Imported cases only 
+Local transmission 
+Imported cases only 
+Imported cases only 
+
+Local transmission 
+Local transmission 
+
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+2 
+0 
+0 
+0 
+
+3 
+2 
+1 
+2 
+0 
+4 
+0 
+3 
+2 
+0 
+0 
+0 
+4 
+4 
+
+5 
+4 
+3 
+0 
+3 
+10 
+0 
+0 
+
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+
+0 
+0 
+0 
+3 
+0 
+0 
+2 
+1 
+
+6 
+5 
+5 
+3 
+3 
+3 
+2 
+1 
+
+0 
+1 
+0 
+0 
+1 
+0 
+0 
+0 
+
+Local transmission 
+
+247 
+101 
+
+823 626 
+
+822 914 
+
+40 
+19 
+
+40 598 
+
+40 591 
+
+72 736 
+
+72 736 
+
+4193 
+
+4193 
+
+0 
+0 
+
+0 
+0 
+
+0 
+0 
+
+712 
+
+16 
+
+0 
+
+7 
+
+0 
+
+ 
+
+ 
+
+ 
+
+ 
+
+‡Case classifications are based on WHO case definitions for COVID-19.  
+§Transmission classification is based on WHO analysis of available official data and may be subject to reclassification as additional data become 
+available.  Countries/territories/areas  experiencing  multiple  types  of  transmission  are  classified  in  the  highest  category  for  which  there  is 
+evidence; they may be removed from a given category if interruption of transmission can be demonstrated. It should be noted that even within 
+categories, different countries/territories/areas may have differing degrees of transmission as indicated by the differing numbers of cases and 
+other factors. Not all locations within a given country/territory/area are equally affected. 
+Terms:  
+
+- 
+
+- 
+- 
+- 
+- 
+
+Community transmission is evidenced by the inability to relate confirmed cases through chains of transmission for a large number of cases, or by 
+increasing positive tests through sentinel samples (routine systematic testing of respiratory samples from established laboratories). 
+Local transmission indicates locations where the source of infection is within the reporting location. 
+Imported cases only indicates locations where all cases have been acquired outside the location of reporting.   
+Under investigation indicates locations where type of transmission has not been determined for any cases. 
+Interrupted transmission indicates locations where interruption of transmission has been demonstrated (details to be determined) 
+
+** “Territories” include territories, areas, overseas dependencies and other jurisdictions of similar status 
+[1] All references to Kosovo should be understood to be in the context of the United Nations Security Council resolution 1244 (1999). 
+ 
+Due to differences in reporting methods, retrospective data consolidation, and reporting delays, the number of new cases may not always 
+reflect the exact difference between yesterday’s and today’s totals. WHO COVID-19 Situation Reports present official counts of confirmed 
+COVID-19 cases, thus differences between WHO reports and other sources of COVID-19 data using different inclusion criteria and different 
+data cutoff times are to be expected. 
+ 
+ 
+ 
+New countries/territories/areas are shown in red. 
+ 
+
+ 
+
+ 
+Figure 1. Epidemic curve of confirmed COVID-19, by date of report and WHO region through 1 April 2020  
+  
+ 
+
+ 
+
+STRATEGIC OBJECTIVES 
+ 
+WHO’s strategic objectives for this response are to: 
+ 
+
+• 
+
+Interrupt human-to-human transmission including reducing secondary infections among close contacts 
+and health care workers, preventing transmission amplification events, and preventing further 
+international spread*;  
+Identify, isolate and care for patients early, including providing optimized care for infected patients; 
+Identify and reduce transmission from the animal source; 
+
+• 
+• 
+•  Address crucial unknowns regarding clinical severity, extent of transmission and infection, treatment 
+
+options, and accelerate the development of diagnostics, therapeutics and vaccines; 
+
+•  Communicate critical risk and event information to all communities and counter misinformation; 
+•  Minimize social and economic impact through multisectoral partnerships. 
+
+ 
+*This can be achieved through a combination of public health measures, such as rapid identification, diagnosis 
+and management of the cases, identification and follow up of the contacts, infection prevention and control in 
+health care settings, implementation of health measures for travelers, awareness-raising in the population and 
+risk communication. 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+To view all technical guidance documents regarding COVID-19, please go to this webpage. 
+
+PREPAREDNESS AND RESPONSE 
+ 
+• 
+•  WHO has developed interim guidance for laboratory diagnosis, advice on the use of masks during home care and 
+in health care settings in the context of the novel coronavirus (2019-nCoV) outbreak, clinical management, 
+infection prevention and control in health care settings, home care for patients with suspected novel 
+coronavirus, risk communication and community engagement and Global Surveillance for human infection with 
+novel coronavirus (2019-nCoV). 
+
+•  WHO is working closely with International Air Transport Association (IATA) and have jointly developed a 
+guidance document to provide advice to cabin crew and airport workers, based on country queries. The 
+guidance can be found on the IATA webpage.  
+
+•  WHO has been in regular and direct contact with Member States where cases have been reported. WHO is also 
+
+informing other countries about the situation and providing support as requested. 
+
+•  WHO is working with its networks of researchers and other experts to coordinate global work on surveillance, 
+
+epidemiology, mathematical modelling, diagnostics and virology, clinical care and treatment, infection 
+prevention and control, and risk communication. WHO has issued interim guidance for countries, which are 
+updated regularly. 
+
+•  WHO has prepared a disease commodity package that includes an essential list of biomedical equipment, 
+
+medicines and supplies necessary to care for patients with 2019-nCoV.  
+
+•  WHO has provided recommendations to reduce risk of transmission from animals to humans. 
+•  WHO has published an updated advice for international traffic in relation to the outbreak of the novel 
+
+coronavirus 2019-nCoV. 
+
+•  WHO has activated the R&D blueprint to accelerate diagnostics, vaccines, and therapeutics. 
+•  OpenWHO is an interactive, web-based, knowledge-transfer platform offering online courses to improve the 
+response to health emergencies. COVID-19 courses can be found here and courses in additional national 
+languages here.  Specifically, WHO has developed online courses on the following topics:  
+
+o  A general introduction to emerging respiratory viruses, including novel coronaviruses (available in 
+
+Arabic, Chinese, English, French, Russian, Spanish, Hindi, Indian Sign Language, Persian, Portuguese, 
+Serbian and Turkish); 
+
+o  Clinical care for Severe Acute Respiratory Infections (available in English, French, Russian, Indonesian 
+
+and Vietnamese);  
+
+o  Health and safety briefing for respiratory diseases - ePROTECT (available in Chinese, English, French, 
+
+o 
+
+Russian, Spanish, Indonesian and Portuguese);  
+Infection Prevention and Control for Novel Coronavirus (COVID-19) (available in Chinese, English, French, 
+Russian, Spanish, Indonesian, Italian, Japanese, Portuguese and Serbian); and 
+
+o  COVID-19 Operational Planning Guidelines and COVID-19 Partners Platform to support country 
+preparedness and response (available in English and coming soon in additional languages). 
+
+•  WHO is providing guidance on early investigations, which are critical in an outbreak of a new virus. The data 
+collected from the protocols can be used to refine recommendations for surveillance and case definitions, to 
+characterize the key epidemiological transmission features of COVID-19, help understand spread, severity, 
+spectrum of disease, impact on the community and to inform operational models for implementation of 
+countermeasures such as case isolation, contact tracing and isolation. Several protocols are available here. One 
+such protocol is for the investigation of early COVID-19 cases and contacts (the “First Few X (FFX) Cases and 
+contact investigation protocol for 2019-novel coronavirus (2019-nCoV) infection”). The protocol is designed to 
+gain an early understanding of the key clinical, epidemiological and virological characteristics of the first cases of 
+COVID-19 infection detected in any individual country, to inform the development and updating of public health 
+guidance to manage cases and reduce the potential spread and impact of infection. 
+
+ 
+ 
+ 
+
+ 
+
+RECOMMENDATIONS AND ADVICE FOR THE PUBLIC 
+ 
+If you are not in an area where COVID-19 is spreading or have not travelled from an area where COVID-19 is 
+spreading or have not been in contact with an infected patient, your risk of infection is low. It is understandable that 
+you may feel anxious about the outbreak. Get the facts from reliable sources to help you accurately determine your 
+risks so that you can take reasonable precautions (see Frequently Asked Questions). Seek guidance from WHO, your 
+healthcare provider, your national public health authority or your employer for accurate information on COVID-19 
+and whether COVID-19 is circulating where you live. It is important to be informed of the situation and take 
+appropriate measures to protect yourself and your family (see Protection measures for everyone). 
+ 
+If you are in an area where there are cases of COVID-19 you need to take the risk of infection seriously. Follow the 
+advice of WHO and guidance issued by national and local health authorities. For most people, COVID-19 infection 
+will cause mild illness however, it can make some people very ill and, in some people, it can be fatal. Older people, 
+and those with pre-existing medical conditions (such as cardiovascular disease, chronic respiratory disease or 
+diabetes) are at risk for severe disease (See Protection measures for persons who are in or have recently visited (past 
+14 days) areas where COVID-19 is spreading). 
+ 
+ 
+CASE DEFINITIONS 
+ 
+WHO periodically updates the Global Surveillance for human infection with coronavirus disease (COVID-19) 
+document which includes case definitions.  
+  
+For easy reference, case definitions are included below.  
+ 
+Suspect case 
+A.  A patient with acute respiratory illness (fever and at least one sign/symptom of respiratory disease, e.g., cough, 
+shortness of breath), AND a history of travel to or residence in a location reporting community transmission of 
+COVID-19 disease during the 14 days prior to symptom onset. 
+OR 
+
+B.  A patient with any acute respiratory illness AND having been in contact with a confirmed or probable COVID-19 
+
+case (see definition of contact) in the last 14 days prior to symptom onset; 
+OR 
+
+C.  A patient with severe acute respiratory illness (fever and at least one sign/symptom of respiratory disease, e.g., 
+
+cough, shortness of breath; AND requiring hospitalization) AND in the absence of an alternative diagnosis that 
+fully explains the clinical presentation. 
+
+ 
+Probable case  
+A.  A suspect case for whom testing for the COVID-19 virus is inconclusive. 
+
+a. 
+
+Inconclusive being the result of the test reported by the laboratory. 
+
+B.  A suspect case for whom testing could not be performed for any reason. 
+
+OR 
+
+ 
+
+Confirmed case  
+A person with laboratory confirmation of COVID-19 infection, irrespective of clinical signs and symptoms. 
+
+•  Technical guidance for laboratory testing can be found here.  
+
+ 
+ 
+ 
+Definition of contact 
+A contact is a person who experienced any one of the following exposures during the 2 days before and the 14 days 
+
+after the onset of symptoms of a probable or confirmed case: 
+
+1.  Face-to-face contact with a probable or confirmed case within 1 meter and for more than 15 minutes; 
+2.  Direct physical contact with a probable or confirmed case; 
+3.  Direct care for a patient with probable or confirmed COVID-19 disease without using proper personal 
+
+protective equipment1;  OR 
+
+4.  Other situations as indicated by local risk assessments. 
+
+ 
+Note: for confirmed asymptomatic cases, the period of contact is measured as the 2 days before through the 14 days 
+after the date on which the sample was taken which led to confirmation. 
+
+                                                
+1 World Health Organization. Infection prevention and control during health care when COVID-19 is suspected 
+https://www.who.int/publications-detail/infection-prevention-and-control-during-health-care-when-novel-coronavirus-(ncov)-
+infection-is-suspected-20200125 
+
+

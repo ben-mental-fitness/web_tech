@@ -1,0 +1,2044 @@
+ 
+ 
+ 
+ 
+ 
+ 
+
+Coronavirus disease 2019 (COVID-19) 
+Situation Report – 68 
+
+Data as reported by national authorities by 10:00 CET 28 March 2020  
+
+ 
+
+ 
+
+ 
+
+HIGHLIGHTS 
+ 
+
+hours. 
+
+ 
+
+•  No new countries/territories/areas reported cases of COVID-19 in the past 24 
+
+•  The WHO Director-General highlighted in his media briefing yesterday that the 
+chronic global shortage of personal protective equipment (PPE) is one of the 
+most urgent threats to our collective ability to save lives. To date, WHO has 
+shipped almost 2 million individual items of PPE to 74 countries and is 
+preparing to send a similar amount to a further 60 countries. The Director-
+General’s opening remarks at the media briefing can be found here.   
+
+•  Today, WHO published the first edition of the practical manual to set up and 
+manage a severe acute respiratory infection (SARI) treatment centre and a 
+SARI screening facility in health-care facilities. The document has been 
+developed to meet the operational needs emerging with the COVID-19 
+pandemic. For more details, please see the document here.  
+
+ 
+
+Figure 1. Countries, territories or areas with reported confirmed cases of COVID-19, 28 March 2020   
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+SITUATION IN NUMBERS 
+total (new) cases in last 24 hours 
+
+ 
+Globally  
+571 659 confirmed (62 495)                 
+26 493 deaths (3158) 
+ 
+Western Pacific Region 
+101 443 confirmed (1425)                 
+3592 deaths (25) 
+ 
+European Region 
+324 343 confirmed (37 646) 
+18 740 deaths (2635) 
+ 
+South-East Asia Region 
+3085 confirmed (153)                 
+114 deaths (09) 
+ 
+Eastern Mediterranean Region 
+38 931 confirmed (3682)                 
+2508 deaths (172) 
+ 
+Region of the Americas 
+100 314 confirmed (19 177)                 
+1485 deaths (309) 
+ 
+African Region 
+2831 confirmed (412)                 
+47 deaths (08) 
+ 
+WHO RISK ASSESSMENT 
+Very High 
+Global Level 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+
+      
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+  
+
+  
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+SURVEILLANCE  
+ 
+Table 1. Countries, territories or areas with reported laboratory-confirmed COVID-19 cases and deaths. Data as of 
+28 March 2020* 
+
+Total 
+confirmed
+‡ cases 
+
+Total 
+confirmed 
+new cases 
+
+Total 
+deaths 
+
+Total 
+new 
+deaths 
+
+Transmission 
+classification§ 
+
+Days since last 
+reported case 
+
+Reporting Country/ 
+Territory/Area† 
+
+Western Pacific Region 
+China 
+Republic of Korea 
+Australia 
+Malaysia 
+Japan 
+Philippines 
+Singapore 
+New Zealand 
+Viet Nam 
+Brunei Darussalam 
+Cambodia 
+Mongolia 
+Lao People's 
+Democratic Republic 
+Fiji 
+Papua New Guinea 
+Territories** 
+Guam 
+French Polynesia 
+New Caledonia 
+European Region  
+Italy 
+Spain 
+Germany 
+France 
+The United Kingdom 
+Switzerland 
+Netherlands 
+Austria 
+Belgium 
+Turkey 
+Portugal 
+Norway 
+Israel 
+Sweden 
+Czechia 
+Ireland 
+Denmark 
+Luxembourg 
+Poland 
+Romania 
+Russian Federation 
+Finland 
+Greece 
+Iceland 
+Slovenia 
+
+82230 
+9478 
+3635 
+2161 
+1499 
+803 
+732 
+416 
+169 
+115 
+104 
+12 
+
+6 
+5 
+1 
+
+51 
+30 
+15 
+
+86498 
+64059 
+48582 
+32542 
+14547 
+12104 
+8603 
+7697 
+7284 
+5698 
+4268 
+3581 
+3460 
+3046 
+2279 
+2121 
+2046 
+1605 
+1389 
+1292 
+1264 
+1025 
+966 
+890 
+632 
+
+152 
+146 
+650 
+130 
+112 
+96 
+49 
+78 
+16 
+1 
+6 
+1 
+
+0 
+0 
+0 
+
+6 
+0 
+1 
+
+5959 
+7871 
+6294 
+3756 
+2885 
+1390 
+1172 
+668 
+1049 
+2069 
+724 
+425 
+425 
+240 
+217 
+302 
+169 
+152 
+168 
+263 
+228 
+67 
+74 
+88 
+55 
+
+3301 
+144 
+14 
+26 
+49 
+54 
+2 
+0 
+0 
+1 
+0 
+0 
+
+0 
+0 
+0 
+
+1 
+0 
+0 
+
+9136 
+4858 
+325 
+1992 
+759 
+197 
+546 
+68 
+289 
+92 
+76 
+16 
+12 
+92 
+9 
+22 
+52 
+15 
+16 
+24 
+4 
+7 
+28 
+2 
+9 
+
+3 
+5 
+1 
+3 
+3 
+9 
+0 
+0 
+0 
+1 
+0 
+0 
+
+0 
+0 
+0 
+
+0 
+0 
+0 
+
+971 
+769 
+72 
+297 
+181 
+36 
+112 
+16 
+69 
+17 
+16 
+2 
+2 
+26 
+0 
+3 
+11 
+6 
+0 
+7 
+1 
+3 
+2 
+0 
+4 
+
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Imported cases only 
+
+Local transmission 
+Local transmission 
+Imported cases only 
+
+Local transmission 
+Local transmission 
+Local transmission 
+
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+
+1 
+2 
+7 
+
+0 
+1 
+0 
+
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+
+586 
+575 
+528 
+372 
+358 
+343 
+311 
+295 
+293 
+289 
+280 
+
+233 
+228 
+219 
+204 
+199 
+197 
+162 
+147 
+139 
+104 
+94 
+85 
+70 
+60 
+58 
+19 
+4 
+
+Croatia 
+Estonia 
+Serbia 
+Armenia 
+Lithuania 
+Hungary 
+Ukraine 
+Slovakia 
+Bulgaria 
+Andorra 
+Latvia 
+Bosnia and 
+Herzegovina 
+San Marino 
+North Macedonia 
+Kazakhstan 
+Republic of Moldova 
+Albania 
+Cyprus 
+Azerbaijan 
+Malta 
+Uzbekistan 
+Belarus 
+Georgia 
+Montenegro 
+Liechtenstein 
+Kyrgyzstan 
+Monaco 
+Holy See 
+Territories** 
+Faroe Islands 
+Kosovo[1]  
+Gibraltar 
+Jersey 
+Guernsey 
+Isle of Man 
+Greenland 
+South-East Asia Region 
+Thailand 
+Indonesia 
+India 
+Sri Lanka 
+Bangladesh 
+Maldives 
+Myanmar 
+Bhutan 
+Nepal 
+Timor-Leste 
+Eastern Mediterranean Region 
+Iran (Islamic Republic 
+of) 
+Pakistan 
+Saudi Arabia 
+Qatar 
+
+144 
+88 
+55 
+52 
+36 
+29 
+9 
+
+1136 
+1046 
+724 
+106 
+48 
+13 
+5 
+3 
+3 
+1 
+
+32332 
+1235 
+1104 
+562 
+
+91 
+37 
+71 
+43 
+59 
+43 
+93 
+69 
+29 
+58 
+36 
+
+20 
+10 
+18 
+79 
+22 
+11 
+16 
+25 
+5 
+21 
+8 
+4 
+3 
+4 
+0 
+0 
+0 
+
+4 
+9 
+20 
+20 
+2 
+3 
+3 
+
+0 
+153 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+
+2926 
+178 
+92 
+13 
+
+3 
+1 
+7 
+1 
+5 
+11 
+8 
+0 
+3 
+3 
+0 
+
+4 
+21 
+3 
+1 
+2 
+9 
+5 
+3 
+0 
+1 
+0 
+0 
+1 
+0 
+0 
+0 
+0 
+
+0 
+1 
+0 
+1 
+0 
+0 
+0 
+
+5 
+87 
+17 
+0 
+5 
+0 
+0 
+0 
+0 
+0 
+
+1 
+0 
+0 
+0 
+1 
+1 
+3 
+0 
+0 
+0 
+0 
+
+1 
+0 
+0 
+1 
+0 
+1 
+2 
+0 
+0 
+1 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+
+0 
+9 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+
+Local transmission 
+Local transmission 
+Local transmission 
+Imported cases only 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Imported cases only 
+Local transmission 
+Local transmission 
+Under investigation 
+
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Under investigation 
+
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Imported cases only 
+Imported cases only 
+Imported cases only 
+Imported cases only 
+
+2378 
+9 
+3 
+0 
+
+144 
+1 
+0 
+0 
+
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+1 
+5 
+2 
+
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+
+1 
+0 
+1 
+1 
+1 
+12 
+1 
+1 
+2 
+7 
+
+0 
+0 
+0 
+0 
+
+Egypt 
+Bahrain 
+Iraq 
+United Arab Emirates 
+Lebanon 
+Morocco 
+Jordan 
+Kuwait 
+Tunisia 
+Oman 
+Afghanistan 
+Djibouti 
+Syrian Arab Republic 
+Somalia 
+Sudan 
+Libya 
+Territories** 
+occupied Palestinian 
+territory 
+Region of the Americas 
+United States of 
+America 
+Canada 
+Brazil 
+Chile 
+Ecuador 
+Panama 
+Argentina 
+Mexico 
+Dominican Republic 
+Peru 
+Colombia 
+Uruguay 
+Costa Rica 
+Venezuela (Bolivarian 
+Republic of) 
+Cuba 
+Honduras 
+Trinidad and Tobago 
+Bolivia (Plurinational 
+State of) 
+Paraguay 
+Jamaica 
+Guatemala 
+Barbados 
+El Salvador 
+Dominica 
+Bahamas 
+Haiti 
+Suriname 
+Antigua and Barbuda 
+Grenada 
+Guyana 
+Saint Lucia 
+
+536 
+473 
+458 
+405 
+391 
+358 
+235 
+235 
+227 
+152 
+106 
+13 
+5 
+3 
+3 
+1 
+
+97 
+
+85228 
+4018 
+2915 
+1610 
+1595 
+674 
+589 
+589 
+581 
+580 
+491 
+238 
+231 
+
+106 
+80 
+67 
+66 
+
+61 
+52 
+26 
+25 
+24 
+13 
+11 
+9 
+8 
+8 
+7 
+7 
+5 
+3 
+
+41 
+15 
+76 
+72 
+23 
+83 
+23 
+27 
+30 
+43 
+26 
+1 
+0 
+0 
+0 
+0 
+
+13 
+
+15 
+13 
+15 
+5 
+
+22 
+11 
+0 
+1 
+6 
+0 
+0 
+4 
+0 
+1 
+4 
+0 
+0 
+0 
+
+16894 
+463 
+482 
+304 
+384 
+116 
+87 
+111 
+93 
+0 
+21 
+21 
+30 
+
+30 
+4 
+40 
+2 
+8 
+23 
+1 
+0 
+6 
+0 
+2 
+0 
+0 
+0 
+1 
+0 
+
+1 
+
+1243 
+39 
+77 
+5 
+36 
+9 
+12 
+8 
+20 
+9 
+6 
+0 
+2 
+
+0 
+2 
+1 
+2 
+
+0 
+3 
+1 
+1 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+1 
+0 
+
+0 
+
+Local transmission 
+
+6 
+0 
+4 
+0 
+2 
+13 
+1 
+0 
+1 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+
+252 
+4 
+20 
+1 
+7 
+1 
+4 
+3 
+10 
+0 
+2 
+0 
+0 
+
+0 
+1 
+0 
+1 
+
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Imported cases only 
+Imported cases only 
+Imported cases only 
+Imported cases only 
+
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Imported cases only 
+Local transmission 
+Local transmission 
+Imported cases only 
+Imported cases only 
+Imported cases only 
+Local transmission 
+Local transmission 
+Imported cases only 
+
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+2 
+1 
+3 
+3 
+
+0 
+
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+1 
+0 
+0 
+0 
+
+0 
+0 
+0 
+0 
+
+0 
+0 
+2 
+0 
+0 
+2 
+1 
+0 
+2 
+0 
+0 
+1 
+9 
+4 
+
+Imported cases only 
+
+15 
+
+Belize 
+Nicaragua 
+Saint Kitts and Nevis 
+Saint Vincent and the 
+Grenadines 
+Territories** 
+Guadeloupe 
+Martinique 
+Puerto Rico 
+
+French Guiana 
+Aruba 
+United States Virgin 
+Islands 
+Bermuda 
+Saint Martin 
+Cayman Islands 
+Curaçao 
+Montserrat 
+Saint Barthélemy 
+Sint Maarten 
+Anguilla 
+British Virgin Islands 
+Turks and Caicos 
+Islands 
+African Region 
+South Africa 
+Algeria 
+Burkina Faso 
+Ghana 
+Senegal 
+Mauritius 
+Cote d’Ivoire 
+Cameroon 
+Nigeria 
+Democratic Republic 
+of the Congo 
+Rwanda 
+Madagascar 
+Kenya 
+Togo 
+Congo 
+Ethiopia 
+Uganda 
+United Republic of 
+Tanzania 
+Zambia 
+Niger 
+Eswatini 
+Mali 
+Guinea 
+Namibia 
+Gabon 
+Mozambique 
+Seychelles 
+
+2 
+2 
+2 
+
+1 
+
+96 
+93 
+64 
+
+31 
+28 
+
+17 
+15 
+12 
+8 
+7 
+5 
+5 
+3 
+2 
+2 
+
+2 
+
+58 
+54 
+26 
+25 
+25 
+19 
+16 
+14 
+
+13 
+13 
+10 
+9 
+9 
+8 
+8 
+7 
+7 
+7 
+
+1170 
+367 
+146 
+137 
+119 
+96 
+92 
+75 
+65 
+
+20 
+27 
+0 
+
+0 
+0 
+0 
+
+0 
+
+3 
+9 
+
+0 
+8 
+1 
+0 
+0 
+3 
+2 
+1 
+0 
+0 
+
+0 
+
+243 
+62 
+0 
+5 
+14 
+15 
+12 
+0 
+0 
+
+4 
+4 
+2 
+0 
+1 
+15 
+4 
+0 
+
+0 
+10 
+0 
+3 
+7 
+3 
+0 
+1 
+2 
+0 
+
+0 
+1 
+0 
+
+0 
+
+2 
+1 
+2 
+
+0 
+0 
+
+0 
+0 
+0 
+1 
+1 
+0 
+0 
+0 
+0 
+0 
+
+0 
+
+4 
+0 
+0 
+1 
+0 
+0 
+0 
+0 
+
+0 
+0 
+1 
+0 
+0 
+0 
+0 
+1 
+0 
+0 
+
+2 
+25 
+3 
+4 
+0 
+2 
+0 
+1 
+1 
+
+0 
+1 
+0 
+
+0 
+
+2 
+0 
+0 
+
+0 
+0 
+
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+
+0 
+
+2 
+4 
+0 
+1 
+0 
+0 
+0 
+0 
+0 
+
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+
+Local transmission 
+Imported cases only 
+Imported cases only 
+
+Imported cases only 
+Imported cases only 
+Imported cases only 
+
+Local transmission 
+Local transmission 
+
+Imported cases only 
+Local transmission 
+Under investigation 
+Imported cases only 
+Imported cases only 
+Imported cases only 
+Under investigation 
+Imported cases only 
+Local transmission 
+Imported cases only 
+
+Imported cases only 
+
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Local transmission 
+Imported cases only 
+Imported cases only 
+Local transmission 
+Local transmission 
+
+Local transmission 
+Local transmission 
+Imported cases only 
+Local transmission 
+Imported cases only 
+Imported cases only 
+Imported cases only 
+Imported cases only 
+
+Imported cases only 
+Local transmission 
+Local transmission 
+Imported cases only 
+Local transmission 
+Imported cases only 
+Imported cases only 
+Imported cases only 
+Local transmission 
+Imported cases only 
+
+2 
+6 
+2 
+
+0 
+0 
+1 
+
+0 
+0 
+
+4 
+0 
+0 
+2 
+1 
+0 
+0 
+0 
+1 
+1 
+
+1 
+
+0 
+0 
+2 
+0 
+0 
+0 
+0 
+1 
+1 
+
+0 
+0 
+0 
+3 
+0 
+0 
+0 
+2 
+
+2 
+0 
+1 
+0 
+0 
+0 
+1 
+0 
+0 
+6 
+
+1 
+
+0 
+
+0 
+
+0 
+
+6 
+
+Imported cases only 
+
+0 
+0 
+0 
+1 
+0 
+1 
+0 
+0 
+0 
+1 
+0 
+
+0 
+0 
+0 
+1 
+0 
+0 
+0 
+0 
+0 
+1 
+0 
+
+6 
+6 
+6 
+5 
+5 
+5 
+3 
+3 
+2 
+2 
+2 
+
+1 
+0 
+0 
+2 
+0 
+2 
+0 
+0 
+0 
+0 
+0 
+
+0 
+6 
+1 
+0 
+1 
+0 
+6 
+1 
+6 
+3 
+2 
+
+Imported cases only 
+Imported cases only 
+Imported cases only 
+Imported cases only 
+Imported cases only 
+Local transmission 
+Local transmission 
+Imported cases only 
+Imported cases only 
+Imported cases only 
+Imported cases only 
+
+Benin 
+Central African 
+Republic 
+Equatorial Guinea 
+Eritrea 
+Cabo Verde 
+Chad 
+Zimbabwe 
+Liberia 
+Mauritania 
+Angola 
+Gambia 
+Guinea-Bissau 
+Territories** 
+Réunion 
+Mayotte 
+Subtotal for all 
+regions 
+International 
+conveyance 
+(Diamond Princess) 
+Grand total 
+*Numbers include both domestic and repatriated cases 
+†The designations employed and the presentation of the material in this publication do not imply the expression of any opinion whatsoever on 
+the part of WHO concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its 
+frontiers or boundaries. Dotted and dashed lines on maps represent approximate border lines for which there may not yet be full agreement. 
+‡Case classifications are based on WHO case definitions for COVID-19.  
+§Transmission classification is based on WHO analysis of available official data and may be subject to reclassification as additional data become 
+available.  Countries/territories/areas  experiencing  multiple  types  of  transmission  are  classified  in  the  highest  category  for  which  there  is 
+evidence; they may be removed from a given category if interruption of transmission can be demonstrated. It should be noted that even within 
+categories, different countries/territories/areas may have differing degrees of transmission as indicated by the differing numbers of cases and 
+other factors. Not all locations within a given country/territory/area are equally affected. 
+Terms:  
+
+Local transmission 
+Local transmission 
+
+Local transmission 
+
+135 
+50 
+
+571659 
+
+570947 
+
+26493 
+
+26486 
+
+62495 
+
+62495 
+
+3158 
+
+3158 
+
+712 
+
+0 
+0 
+
+0 
+0 
+
+1 
+1 
+
+0 
+0 
+
+12 
+
+0 
+
+7 
+
+0 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- 
+
+- 
+- 
+- 
+- 
+
+Community transmission is evidenced by the inability to relate confirmed cases through chains of transmission for a large number of cases, or by 
+increasing positive tests through sentinel samples (routine systematic testing of respiratory samples from established laboratories). 
+Local transmission indicates locations where the source of infection is within the reporting location. 
+Imported cases only indicates locations where all cases have been acquired outside the location of reporting.   
+Under investigation indicates locations where type of transmission has not been determined for any cases. 
+Interrupted transmission indicates locations where interruption of transmission has been demonstrated (details to be determined) 
+
+** “Territories” include territories, areas, overseas dependencies and other jurisdictions of similar status 
+[1] All references to Kosovo should be understood to be in the context of the United Nations Security Council resolution 1244 (1999). 
+ 
+Due to differences in reporting methods, retrospective data consolidation, and reporting delays, the number of new cases may not always 
+reflect the exact difference between yesterday’s and today’s totals. WHO COVID-19 Situation Reports present official counts of confirmed 
+COVID-19 cases, thus differences between WHO reports and other sources of COVID-19 data using different inclusion criteria and different 
+data cutoff times are to be expected. 
+ 
+ 
+ 
+Erratum: Total cases and new cases have been revised for China and Cambodia. Total deaths and new deaths have been revised for South 
+Africa 
+
+ 
+
+Figure 1. Epidemic curve of confirmed COVID-19, by date of report and WHO region through 28 March 2020  
+  
+ 
+
+ 
+
+STRATEGIC OBJECTIVES 
+ 
+WHO’s strategic objectives for this response are to: 
+ 
+
+• 
+
+Interrupt human-to-human transmission including reducing secondary infections among close contacts 
+and health care workers, preventing transmission amplification events, and preventing further 
+international spread*;  
+Identify, isolate and care for patients early, including providing optimized care for infected patients; 
+Identify and reduce transmission from the animal source; 
+
+• 
+• 
+•  Address crucial unknowns regarding clinical severity, extent of transmission and infection, treatment 
+
+options, and accelerate the development of diagnostics, therapeutics and vaccines; 
+
+•  Communicate critical risk and event information to all communities and counter misinformation; 
+•  Minimize social and economic impact through multisectoral partnerships. 
+
+ 
+*This can be achieved through a combination of public health measures, such as rapid identification, diagnosis 
+and management of the cases, identification and follow up of the contacts, infection prevention and control in 
+health care settings, implementation of health measures for travelers, awareness-raising in the population and 
+risk communication. 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+To view all technical guidance documents regarding COVID-19, please go to this webpage. 
+
+PREPAREDNESS AND RESPONSE 
+ 
+• 
+•  WHO has developed interim guidance for laboratory diagnosis, advice on the use of masks during home care and 
+in health care settings in the context of the novel coronavirus (2019-nCoV) outbreak, clinical management, 
+infection prevention and control in health care settings, home care for patients with suspected novel 
+coronavirus, risk communication and community engagement and Global Surveillance for human infection with 
+novel coronavirus (2019-nCoV). 
+
+•  WHO is working closely with International Air Transport Association (IATA) and have jointly developed a 
+guidance document to provide advice to cabin crew and airport workers, based on country queries. The 
+guidance can be found on the IATA webpage.  
+
+•  WHO has been in regular and direct contact with Member States where cases have been reported. WHO is also 
+
+informing other countries about the situation and providing support as requested. 
+
+•  WHO is working with its networks of researchers and other experts to coordinate global work on surveillance, 
+
+epidemiology, mathematical modelling, diagnostics and virology, clinical care and treatment, infection 
+prevention and control, and risk communication. WHO has issued interim guidance for countries, which are 
+updated regularly. 
+
+•  WHO has prepared a disease commodity package that includes an essential list of biomedical equipment, 
+
+medicines and supplies necessary to care for patients with 2019-nCoV.  
+
+•  WHO has provided recommendations to reduce risk of transmission from animals to humans. 
+•  WHO has published an updated advice for international traffic in relation to the outbreak of the novel 
+
+coronavirus 2019-nCoV. 
+
+•  WHO has activated the R&D blueprint to accelerate diagnostics, vaccines, and therapeutics. 
+•  OpenWHO is an interactive, web-based, knowledge-transfer platform offering online courses to improve the 
+response to health emergencies. COVID-19 courses can be found here and courses in additional national 
+languages here.  Specifically, WHO has developed online courses on the following topics:  
+
+o  A general introduction to emerging respiratory viruses, including novel coronaviruses (available in 
+
+Arabic, Chinese, English, French, Russian, Spanish, Hindi, Indian Sign Language, Persian, Portuguese, 
+Serbian and Turkish); 
+
+o  Clinical care for Severe Acute Respiratory Infections (available in English, French, Russian, Indonesian 
+
+and Vietnamese);  
+
+o  Health and safety briefing for respiratory diseases - ePROTECT (available in Chinese, English, French, 
+
+o 
+
+Russian, Spanish, Indonesian and Portuguese);  
+Infection Prevention and Control for Novel Coronavirus (COVID-19) (available in Chinese, English, French, 
+Russian, Spanish, Indonesian, Italian, Japanese, Portuguese and Serbian); and 
+
+o  COVID-19 Operational Planning Guidelines and COVID-19 Partners Platform to support country 
+preparedness and response (available in English and coming soon in additional languages). 
+
+•  WHO is providing guidance on early investigations, which are critical in an outbreak of a new virus. The data 
+collected from the protocols can be used to refine recommendations for surveillance and case definitions, to 
+characterize the key epidemiological transmission features of COVID-19, help understand spread, severity, 
+spectrum of disease, impact on the community and to inform operational models for implementation of 
+countermeasures such as case isolation, contact tracing and isolation. Several protocols are available here. One 
+such protocol is for the investigation of early COVID-19 cases and contacts (the “First Few X (FFX) Cases and 
+contact investigation protocol for 2019-novel coronavirus (2019-nCoV) infection”). The protocol is designed to 
+gain an early understanding of the key clinical, epidemiological and virological characteristics of the first cases of 
+COVID-19 infection detected in any individual country, to inform the development and updating of public health 
+guidance to manage cases and reduce the potential spread and impact of infection. 
+
+ 
+ 
+ 
+
+ 
+
+RECOMMENDATIONS AND ADVICE FOR THE PUBLIC 
+ 
+If you are not in an area where COVID-19 is spreading or have not travelled from an area where COVID-19 is 
+spreading or have not been in contact with an infected patient, your risk of infection is low. It is understandable that 
+you may feel anxious about the outbreak. Get the facts from reliable sources to help you accurately determine your 
+risks so that you can take reasonable precautions (see Frequently Asked Questions). Seek guidance from WHO, your 
+healthcare provider, your national public health authority or your employer for accurate information on COVID-19 
+and whether COVID-19 is circulating where you live. It is important to be informed of the situation and take 
+appropriate measures to protect yourself and your family (see Protection measures for everyone). 
+ 
+If you are in an area where there are cases of COVID-19 you need to take the risk of infection seriously. Follow the 
+advice of WHO and guidance issued by national and local health authorities. For most people, COVID-19 infection 
+will cause mild illness however, it can make some people very ill and, in some people, it can be fatal. Older people, 
+and those with pre-existing medical conditions (such as cardiovascular disease, chronic respiratory disease or 
+diabetes) are at risk for severe disease (See Protection measures for persons who are in or have recently visited (past 
+14 days) areas where COVID-19 is spreading). 
+ 
+ 
+CASE DEFINITIONS 
+ 
+WHO periodically updates the Global Surveillance for human infection with coronavirus disease (COVID-19) 
+document which includes case definitions.  
+  
+For easy reference, case definitions are included below.  
+ 
+Suspect case 
+A.  A patient with acute respiratory illness (fever and at least one sign/symptom of respiratory disease, e.g., cough, 
+shortness of breath), AND a history of travel to or residence in a location reporting community transmission of 
+COVID-19 disease during the 14 days prior to symptom onset. 
+OR 
+
+B.  A patient with any acute respiratory illness AND having been in contact with a confirmed or probable COVID-19 
+
+case (see definition of contact) in the last 14 days prior to symptom onset; 
+OR 
+
+C.  A patient with severe acute respiratory illness (fever and at least one sign/symptom of respiratory disease, e.g., 
+
+cough, shortness of breath; AND requiring hospitalization) AND in the absence of an alternative diagnosis that 
+fully explains the clinical presentation. 
+
+ 
+Probable case  
+A.  A suspect case for whom testing for the COVID-19 virus is inconclusive. 
+
+a. 
+
+Inconclusive being the result of the test reported by the laboratory. 
+
+B.  A suspect case for whom testing could not be performed for any reason. 
+
+OR 
+
+ 
+
+Confirmed case  
+A person with laboratory confirmation of COVID-19 infection, irrespective of clinical signs and symptoms. 
+
+•  Technical guidance for laboratory testing can be found here.  
+
+ 
+ 
+ 
+Definition of contact 
+A contact is a person who experienced any one of the following exposures during the 2 days before and the 14 days 
+
+after the onset of symptoms of a probable or confirmed case: 
+
+1.  Face-to-face contact with a probable or confirmed case within 1 meter and for more than 15 minutes; 
+2.  Direct physical contact with a probable or confirmed case; 
+3.  Direct care for a patient with probable or confirmed COVID-19 disease without using proper personal 
+
+protective equipment1;  OR 
+
+4.  Other situations as indicated by local risk assessments. 
+
+ 
+Note: for confirmed asymptomatic cases, the period of contact is measured as the 2 days before through the 14 days 
+after the date on which the sample was taken which led to confirmation. 
+
+                                                
+1 World Health Organization. Infection prevention and control during health care when COVID-19 is suspected 
+https://www.who.int/publications-detail/infection-prevention-and-control-during-health-care-when-novel-coronavirus-(ncov)-
+infection-is-suspected-20200125 
+
+

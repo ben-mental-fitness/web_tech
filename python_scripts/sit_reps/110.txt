@@ -1,0 +1,3478 @@
+ 
+
+ 
+
+ 
+
+Coronavirus disease (COVID-19)  
+Situation Report – 110 
+
+Data as received by WHO from national authorities by 10:00 CEST, 9 May 2020 
+ 
+This report has been reformatted to improve accessibility for persons with visual impairment. 
+
+Highlights 
+
+  
+The Emergency Relief Coordinator/UN Under-Secretary-General for Humanitarian Affairs Mark Lowcock 
+launched an update to the  Global Humanitarian Response Plan for COVID-19 (GHRP).  He was joined by 
+the Executive Director of WHO’s Health Emergencies Programme, Dr Mike Ryan; the President and CEO 
+of Oxfam America, Abby Maxman; the UN High Commissioner for Refugees, Filippo Grandi; and the 
+Executive Director of the World Food Programme, David Beasley. The GHRP has a funding requirement 
+of U$6.7 billion to protect millions of people already facing humanitarian crises in  several countries. For 
+more information, a UN News Story and YouTube recording is available. 
+
+New interim guidance has been released by the Inter-Agency Standing Committee on how to adapt 
+COVID-19 prevention and response measures for use in low capacity and humanitarian settings. 
+
+WHO has released a video summarising key moments in the response so far. 
+
+Situation in numbers (by WHO Region) 
+Total (new cases in last 24 hours)  
+
+Globally  
+
+Africa 
+
+Americas 
+
+3 855 809 cases (95 866) 
+
+265 861 deaths (6387) 
+
+          40 544 cases (2851) 
+
+            1322 deaths (47) 
+
+ 1 636 841 cases (50 712)  
+
+    91 893 deaths (3963) 
+
+Eastern Mediterranean                                    246 022 cases (8699) 
+
+          8748 deaths (140) 
+
+Europe 
+
+South-East Asia 
+
+ 1 682 338 cases (27 993)                         154 233 deaths (2054) 
+
+          90 808 cases (4514) 
+
+          3204 deaths (129) 
+
+Western Pacific                                                   158 544 cases (1097) 
+
+            6448 deaths (54) 
+
+ 
+
+Surveillance  
+
+Figure 1. Number of confirmed COVID-19 cases reported in the last seven days by country, territory or area, 3 May to 9 May** 
+
+**See Annex 1 for data, table and figure notes.  
+
+ 
+
+Figure 2. Number of confirmed COVID-19 cases, by date of report and WHO region, 30 December 2019 through 9 May 2020** 
+
+**See Annex 1 for data, table and figure notes.  
+
+ 
+
+Table 1. Countries, territories or areas with reported laboratory-confirmed COVID-19 cases and deaths, by WHO region. Data as of 10 AM CEST, 9 May 2020** 
+
+Reporting Country/ 
+Territory/Area 
+
+Total confirmed 
+cases 
+
+Total confirmed 
+new cases 
+
+Total deaths 
+
+Total new deaths 
+
+Transmission 
+classificationi 
+
+Days since last 
+reported case 
+
+Africa 
+
+South Africa 
+
+Algeria 
+
+Ghana 
+
+Nigeria 
+
+Cameroon 
+
+Guinea 
+
+Côte d’Ivoire 
+
+Senegal 
+
+Niger 
+
+Burkina Faso 
+
+Mali 
+
+Kenya 
+
+Gabon 
+
+Mauritius 
+
+Congo 
+
+Rwanda 
+
+Chad 
+
+Democratic Republic of the 
+Congo 
+
+United Republic of Tanzania 
+
+Guinea-Bissau 
+
+Equatorial Guinea 
+
+8895 
+
+5369 
+
+4012 
+
+3912 
+
+2265 
+
+2009 
+
+1602 
+
+1551 
+
+937 
+
+795 
+
+736 
+
+668 
+
+621 
+
+620 
+
+509 
+
+508 
+
+439 
+
+332 
+
+287 
+
+273 
+
+260 
+
+663 
+
+187 
+
+921 
+
+386 
+
+0 
+
+82 
+
+31 
+
+59 
+
+40 
+
+14 
+
+0 
+
+18 
+
+14 
+
+0 
+
+0 
+
+0 
+
+0 
+
+2 
+
+7 
+
+13 
+
+116 
+
+178 
+
+488 
+
+18 
+
+117 
+
+108 
+
+11 
+
+20 
+
+13 
+
+39 
+
+44 
+
+48 
+
+35 
+
+29 
+
+8 
+
+21 
+
+2 
+
+4 
+
+10 
+
+10 
+
+0 
+
+28 
+
+17 
+
+Community transmission 
+
+Community transmission 
+
+Clusters of cases 
+
+10 
+
+Community transmission 
+
+Clusters of cases 
+
+Community transmission 
+
+Community transmission 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Sporadic cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Sporadic cases 
+
+5 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+3 
+
+2 
+
+0 
+
+3 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+1 
+
+0 
+
+0 
+
+0 
+
+0 
+
+3 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+1 
+
+0 
+
+0 
+
+0 
+
+1 
+
+2 
+
+3 
+
+0 
+
+0 
+
+0 
+
+Community transmission 
+
+12 
+
+Reporting Country/ 
+Territory/Area 
+
+Total confirmed 
+cases 
+
+Total confirmed 
+new cases 
+
+Total deaths 
+
+Total new deaths 
+
+Days since last 
+reported case 
+
+São Tomé and Príncipe 
+
+Central African Republic 
+
+Mozambique 
+
+Sierra Leone 
+
+Benin 
+
+Cabo Verde 
+
+Liberia 
+
+Ethiopia 
+
+Madagascar 
+
+Zambia 
+
+Eswatini 
+
+Togo 
+
+South Sudan 
+
+Uganda 
+
+Malawi 
+
+Eritrea 
+
+Angola 
+
+Zimbabwe 
+
+Botswana 
+
+Gambia 
+
+Burundi 
+
+Namibia 
+
+Seychelles 
+
+257 
+
+242 
+
+230 
+
+208 
+
+199 
+
+194 
+
+169 
+
+167 
+
+159 
+
+145 
+
+120 
+
+101 
+
+94 
+
+82 
+
+43 
+
+39 
+
+36 
+
+34 
+
+23 
+
+20 
+
+19 
+
+16 
+
+11 
+
+26 
+
+102 
+
+12 
+
+43 
+
+10 
+
+3 
+
+0 
+
+14 
+
+6 
+
+10 
+
+30 
+
+0 
+
+0 
+
+1 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+2 
+
+0 
+
+0 
+
+0 
+
+17 
+
+20 
+
+10 
+
+2 
+
+2 
+
+5 
+
+4 
+
+0 
+
+4 
+
+2 
+
+0 
+
+0 
+
+0 
+
+0 
+
+3 
+
+0 
+
+2 
+
+4 
+
+1 
+
+1 
+
+1 
+
+0 
+
+0 
+
+Transmission 
+classificationi 
+
+Clusters of cases 
+
+Sporadic cases 
+
+Sporadic cases 
+
+Sporadic cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Sporadic cases 
+
+Sporadic cases 
+
+Clusters of cases 
+
+Sporadic cases 
+
+Sporadic cases 
+
+Sporadic cases 
+
+Sporadic cases 
+
+Sporadic cases 
+
+Sporadic cases 
+
+Sporadic cases 
+
+Sporadic cases 
+
+Sporadic cases 
+
+Sporadic cases 
+
+Sporadic cases 
+
+Sporadic cases 
+
+Sporadic cases 
+
+3 
+
+0 
+
+0 
+
+1 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+1 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+2 
+
+0 
+
+0 
+
+0 
+
+0 
+
+1 
+
+4 
+
+0 
+
+2 
+
+3 
+
+7 
+
+0 
+
+6 
+
+20 
+
+10 
+
+33 
+
+32 
+
+Reporting Country/ 
+Territory/Area 
+
+Total confirmed 
+cases 
+
+Total confirmed 
+new cases 
+
+Total deaths 
+
+Total new deaths 
+
+Days since last 
+reported case 
+
+United States of America 
+
+30 303 
+
+69 889 
+
+2743 
+
+Community transmission 
+
+Comoros 
+
+Mauritania 
+
+Territoriesii 
+
+Mayotte 
+
+Réunion 
+
+Americas 
+
+Brazil 
+
+Canada 
+
+Peru 
+
+Ecuador 
+
+Mexico 
+
+Chile 
+
+Colombia 
+
+Panama 
+
+Argentina 
+
+Cuba 
+
+Honduras 
+
+Guatemala 
+
+Costa Rica 
+
+El Salvador 
+
+Uruguay 
+
+Dominican Republic 
+
+Bolivia (Plurinational State of) 
+
+8 
+
+8 
+
+890 
+
+430 
+
+1 245 874 
+
+135 106 
+
+65 399 
+
+58 526 
+
+30 298 
+
+29 616 
+
+25 972 
+
+9456 
+
+9376 
+
+7868 
+
+5530 
+
+2081 
+
+1741 
+
+1685 
+
+832 
+
+765 
+
+742 
+
+684 
+
+0 
+
+0 
+
+36 
+
+3 
+
+9888 
+
+1504 
+
+3709 
+
+0 
+
+1982 
+
+1391 
+
+497 
+
+281 
+
+137 
+
+225 
+
+195 
+
+12 
+
+224 
+
+34 
+
+4 
+
+47 
+
+11 
+
+1 
+
+1 
+
+11 
+
+0 
+
+9146 
+
+4471 
+
+1627 
+
+1654 
+
+2961 
+
+294 
+
+407 
+
+380 
+
+225 
+
+289 
+
+102 
+
+74 
+
+105 
+
+23 
+
+6 
+
+15 
+
+17 
+
+Transmission 
+classificationi 
+
+Pending 
+
+Sporadic cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+0 
+
+0 
+
+1 
+
+0 
+
+7 
+
+7 
+
+14 
+
+11 
+
+1 
+
+6 
+
+2 
+
+0 
+
+0 
+
+0 
+
+610 
+
+Community transmission 
+
+191 
+
+Community transmission 
+
+94 
+
+Community transmission 
+
+0 
+
+Community transmission 
+
+257 
+
+Community transmission 
+
+9 
+
+Community transmission 
+
+10 
+
+Community transmission 
+
+Community transmission 
+
+Community transmission 
+
+Community transmission 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Community transmission 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+2 
+
+8 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+1 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+Reporting Country/ 
+Territory/Area 
+
+Total confirmed 
+cases 
+
+Total confirmed 
+new cases 
+
+Total deaths 
+
+Total new deaths 
+
+Transmission 
+classificationi 
+
+Days since last 
+reported case 
+
+Venezuela (Bolivarian Republic 
+of) 
+
+Trinidad and Tobago 
+
+Paraguay 
+
+Jamaica 
+
+Haiti 
+
+Guyana 
+
+Bahamas 
+
+Barbados 
+
+Grenada 
+
+Belize 
+
+Saint Lucia 
+
+Dominica 
+
+Nicaragua 
+
+Antigua and Barbuda 
+
+Saint Vincent and the 
+Grenadines 
+
+Saint Kitts and Nevis 
+
+Suriname 
+
+Territoriesii 
+
+Puerto Rico 
+
+Martinique 
+
+Guadeloupe 
+
+French Guiana 
+
+563 
+
+488 
+
+381 
+
+129 
+
+116 
+
+93 
+
+92 
+
+82 
+
+25 
+
+21 
+
+18 
+
+18 
+
+17 
+
+16 
+
+16 
+
+15 
+
+10 
+
+2156 
+
+183 
+
+154 
+
+141 
+
+101 
+
+10 
+
+2 
+
+21 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+1 
+
+1 
+
+3 
+
+125 
+
+10 
+
+9 
+
+10 
+
+12 
+
+8 
+
+10 
+
+11 
+
+7 
+
+3 
+
+0 
+
+2 
+
+0 
+
+0 
+
+0 
+
+5 
+
+0 
+
+1 
+
+56 
+
+14 
+
+13 
+
+1 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+Community transmission 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Sporadic cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Sporadic cases 
+
+Sporadic cases 
+
+Sporadic cases 
+
+Clusters of cases 
+
+Pending 
+
+Sporadic cases 
+
+Sporadic cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+11 
+
+0 
+
+0 
+
+0 
+
+0 
+
+2 
+
+1 
+
+4 
+
+5 
+
+5 
+
+4 
+
+4 
+
+24 
+
+28 
+
+2 
+
+18 
+
+35 
+
+0 
+
+0 
+
+0 
+
+0 
+
+Reporting Country/ 
+Territory/Area 
+
+Total confirmed 
+cases 
+
+Total confirmed 
+new cases 
+
+Total deaths 
+
+Total new deaths 
+
+Days since last 
+reported case 
+
+Bermuda 
+
+Aruba 
+
+Cayman Islands 
+
+Sint Maarten 
+
+Saint Martin 
+
+Curaçao 
+
+United States Virgin Islands 
+
+Falkland Islands (Malvinas) 
+
+Turks and Caicos Islands 
+
+Montserrat 
+
+British Virgin Islands 
+
+Bonaire, Sint Eustatius and 
+Saba 
+
+Saint Barthélemy 
+
+Anguilla 
+
+Saint Pierre and Miquelon 
+
+Eastern Mediterranean  
+
+Saudi Arabia 
+
+Pakistan 
+
+Qatar 
+
+Egypt 
+
+Kuwait 
+
+United Arab Emirates 
+
+118 
+
+101 
+
+80 
+
+76 
+
+68 
+
+38 
+
+16 
+
+13 
+
+12 
+
+11 
+
+7 
+
+6 
+
+6 
+
+3 
+
+1 
+
+35 432 
+
+27 474 
+
+20 201 
+
+16 793 
+
+8476 
+
+7208 
+
+0 
+
+0 
+
+2 
+
+0 
+
+2 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+1556 
+
+1701 
+
+1637 
+
+1311 
+
+553 
+
+495 
+
+641 
+
+14 
+
+7 
+
+3 
+
+1 
+
+4 
+
+3 
+
+1 
+
+0 
+
+1 
+
+1 
+
+1 
+
+0 
+
+0 
+
+0 
+
+0 
+
+6541 
+
+229 
+
+618 
+
+12 
+
+174 
+
+503 
+
+47 
+
+Iran (Islamic Republic of) 
+
+104 691 
+
+Transmission 
+classificationi 
+
+Clusters of cases 
+
+Sporadic cases 
+
+Clusters of cases 
+
+Sporadic cases 
+
+Clusters of cases 
+
+Sporadic cases 
+
+Sporadic cases 
+
+Clusters of cases 
+
+Sporadic cases 
+
+Sporadic cases 
+
+Sporadic cases 
+
+Sporadic cases 
+
+Sporadic cases 
+
+Sporadic cases 
+
+Sporadic cases 
+
+Community transmission 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Community transmission 
+
+Pending 
+
+Clusters of cases 
+
+Clusters of cases 
+
+0 
+
+1 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+55 
+
+10 
+
+24 
+
+0 
+
+9 
+
+21 
+
+3 
+
+1 
+
+3 
+
+0 
+
+8 
+
+0 
+
+16 
+
+11 
+
+13 
+
+11 
+
+25 
+
+3 
+
+11 
+
+39 
+
+35 
+
+31 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+Reporting Country/ 
+Territory/Area 
+
+Total confirmed 
+cases 
+
+Total confirmed 
+new cases 
+
+Total deaths 
+
+Total new deaths 
+
+Days since last 
+reported case 
+
+Morocco 
+
+Bahrain 
+
+Afghanistan 
+
+Oman 
+
+Iraq 
+
+Djibouti 
+
+Sudan 
+
+Tunisia 
+
+Somalia 
+
+Lebanon 
+
+Jordan 
+
+Libya 
+
+Syrian Arab Republic 
+
+Yemen 
+
+Territoriesii 
+
+occupied Palestinian territory 
+
+The United Kingdom 
+
+Russian Federation 
+
+Europe 
+
+Spain 
+
+Italy 
+
+Germany 
+
+France 
+
+Turkey 
+
+5711 
+
+4444 
+
+3563 
+
+3224 
+
+2603 
+
+1135 
+
+1111 
+
+1030 
+
+928 
+
+796 
+
+508 
+
+64 
+
+47 
+
+36 
+
+547 
+
+222 857 
+
+217 185 
+
+211 368 
+
+198 676 
+
+168 551 
+
+136 578 
+
+135 569 
+
+163 
+
+245 
+
+0 
+
+112 
+
+60 
+
+2 
+
+181 
+
+4 
+
+0 
+
+12 
+
+14 
+
+0 
+
+2 
+
+10 
+
+0 
+
+1410 
+
+1327 
+
+4649 
+
+10 817 
+
+1251 
+
+598 
+
+1848 
+
+186 
+
+8 
+
+105 
+
+17 
+
+104 
+
+3 
+
+59 
+
+45 
+
+44 
+
+26 
+
+9 
+
+3 
+
+3 
+
+8 
+
+4 
+
+26 251 
+
+30 201 
+
+31 241 
+
+1827 
+
+7369 
+
+26 188 
+
+3689 
+
+3 
+
+0 
+
+0 
+
+2 
+
+2 
+
+0 
+
+7 
+
+1 
+
+0 
+
+1 
+
+0 
+
+0 
+
+0 
+
+2 
+
+0 
+
+Transmission 
+classificationi 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Sporadic cases 
+
+Sporadic cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Community transmission 
+
+Community transmission 
+
+Pending 
+
+Clusters of cases 
+
+181 
+
+Community transmission 
+
+243 
+
+Community transmission 
+
+626 
+
+Community transmission 
+
+104 
+
+Clusters of cases 
+
+103 
+
+Community transmission 
+
+242 
+
+Community transmission 
+
+48 
+
+Community transmission 
+
+0 
+
+0 
+
+1 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+1 
+
+0 
+
+0 
+
+2 
+
+0 
+
+0 
+
+1 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+Reporting Country/ 
+Territory/Area 
+
+Total confirmed 
+cases 
+
+Total confirmed 
+new cases 
+
+Total deaths 
+
+Total new deaths 
+
+Transmission 
+classificationi 
+
+Days since last 
+reported case 
+
+Belgium 
+
+Netherlands 
+
+Switzerland 
+
+Portugal 
+
+Sweden 
+
+Ireland 
+
+Belarus 
+
+Israel 
+
+Austria 
+
+Poland 
+
+Romania 
+
+Ukraine 
+
+Denmark 
+
+Serbia 
+
+Czechia 
+
+Norway 
+
+Finland 
+
+Kazakhstan 
+
+Republic of Moldova 
+
+Luxembourg 
+
+Hungary 
+
+Armenia 
+
+Greece 
+
+Uzbekistan 
+
+52 011 
+
+42 093 
+
+30 168 
+
+27 268 
+
+25 265 
+
+22 541 
+
+21 101 
+
+16 444 
+
+15 735 
+
+15 366 
+
+14 811 
+
+14 710 
+
+10 218 
+
+9943 
+
+8077 
+
+8034 
+
+5738 
+
+4922 
+
+4728 
+
+3871 
+
+3213 
+
+3175 
+
+2691 
+
+2336 
+
+591 
+
+319 
+
+125 
+
+553 
+
+642 
+
+156 
+
+933 
+
+98 
+
+62 
+
+319 
+
+312 
+
+515 
+
+135 
+
+95 
+
+46 
+
+39 
+
+65 
+
+344 
+
+123 
+
+12 
+
+35 
+
+146 
+
+13 
+
+22 
+
+8521 
+
+5359 
+
+1531 
+
+1114 
+
+3175 
+
+1429 
+
+121 
+
+245 
+
+614 
+
+776 
+
+898 
+
+376 
+
+522 
+
+209 
+
+273 
+
+213 
+
+260 
+
+31 
+
+159 
+
+100 
+
+405 
+
+44 
+
+150 
+
+10 
+
+106 
+
+Community transmission 
+
+Community transmission 
+
+Community transmission 
+
+9 
+
+Community transmission 
+
+135 
+
+Community transmission 
+
+26 
+
+Community transmission 
+
+Clusters of cases 
+
+Pending 
+
+Community transmission 
+
+Community transmission 
+
+Community transmission 
+
+Community transmission 
+
+Community transmission 
+
+Pending 
+
+Pending 
+
+Pending 
+
+Pending 
+
+Pending 
+
+Pending 
+
+Pending 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Community transmission 
+
+Clusters of cases 
+
+71 
+
+14 
+
+5 
+
+6 
+
+5 
+
+21 
+
+22 
+
+15 
+
+8 
+
+3 
+
+3 
+
+4 
+
+5 
+
+1 
+
+14 
+
+0 
+
+13 
+
+1 
+
+2 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+Reporting Country/ 
+Territory/Area 
+
+Total confirmed 
+cases 
+
+Total confirmed 
+new cases 
+
+Total deaths 
+
+Total new deaths 
+
+Days since last 
+reported case 
+
+Bosnia and Herzegovina 
+
+North Macedonia 
+
+Azerbaijan 
+
+Croatia 
+
+Bulgaria 
+
+Iceland 
+
+Estonia 
+
+Slovakia 
+
+Slovenia 
+
+Lithuania 
+
+Kyrgyzstan 
+
+Latvia 
+
+Cyprus 
+
+Albania 
+
+Andorra 
+
+San Marino 
+
+Georgia 
+
+Tajikistan 
+
+Malta 
+
+Montenegro 
+
+Monaco 
+
+Liechtenstein 
+
+Holy See 
+
+2279 
+
+2161 
+
+2070 
+
+1911 
+
+1801 
+
+1725 
+
+1586 
+
+1455 
+
+1450 
+
+1436 
+
+931 
+
+928 
+
+891 
+
+856 
+
+754 
+
+632 
+
+626 
+
+522 
+
+489 
+
+324 
+
+95 
+
+83 
+
+12 
+
+75 
+
+36 
+
+43 
+
+82 
+
+0 
+
+5 
+
+14 
+
+10 
+
+1 
+
+3 
+
+25 
+
+19 
+
+61 
+
+2 
+
+6 
+
+2 
+
+0 
+
+3 
+
+3 
+
+0 
+
+0 
+
+0 
+
+0 
+
+100 
+
+28 
+
+86 
+
+97 
+
+88 
+
+10 
+
+56 
+
+90 
+
+26 
+
+49 
+
+12 
+
+18 
+
+21 
+
+31 
+
+47 
+
+41 
+
+10 
+
+18 
+
+5 
+
+8 
+
+1 
+
+1 
+
+0 
+
+Transmission 
+classificationi 
+
+Clusters of cases 
+
+Community transmission 
+
+Community transmission 
+
+Clusters of cases 
+
+Community transmission 
+
+Pending 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Community transmission 
+
+Community transmission 
+
+Clusters of cases 
+
+Community transmission 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Community transmission 
+
+Community transmission 
+
+Community transmission 
+
+Pending 
+
+Pending 
+
+Clusters of cases 
+
+Sporadic cases 
+
+Pending 
+
+Sporadic cases 
+
+0 
+
+0 
+
+8 
+
+4 
+
+0 
+
+0 
+
+1 
+
+0 
+
+1 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+1 
+
+2 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+1 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+1 
+
+0 
+
+0 
+
+0 
+
+3 
+
+5 
+
+13 
+
+2 
+
+Reporting Country/ 
+Territory/Area 
+
+Total confirmed 
+cases 
+
+Total confirmed 
+new cases 
+
+Total deaths 
+
+Total new deaths 
+
+Transmission 
+classificationi 
+
+Days since last 
+reported case 
+
+erritoriesii 
+
+Kosovo[1] 
+
+Isle of Man 
+
+Jersey 
+
+Guernsey 
+
+Faroe Islands 
+
+Gibraltar 
+
+Greenland 
+
+South-East Asia  
+
+India 
+
+Bangladesh 
+
+Indonesia 
+
+Thailand 
+
+Sri Lanka 
+
+Maldives 
+
+Myanmar 
+
+Nepal 
+
+Timor-Leste 
+
+Bhutan 
+
+Western Pacific  
+
+China 
+
+Singapore 
+
+Japan 
+
+Republic of Korea 
+
+862 
+
+329 
+
+293 
+
+252 
+
+187 
+
+144 
+
+11 
+
+59 662 
+
+13 134 
+
+13 112 
+
+3004 
+
+835 
+
+744 
+
+177 
+
+109 
+
+24 
+
+7 
+
+84 416 
+
+21 707 
+
+15 649 
+
+10 840 
+
+1 
+
+2 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+3320 
+
+709 
+
+336 
+
+4 
+
+38 
+
+96 
+
+1 
+
+10 
+
+0 
+
+0 
+
+1 
+
+768 
+
+102 
+
+18 
+
+28 
+
+23 
+
+25 
+
+13 
+
+0 
+
+0 
+
+0 
+
+1981 
+
+206 
+
+943 
+
+56 
+
+9 
+
+3 
+
+6 
+
+0 
+
+0 
+
+0 
+
+4643 
+
+20 
+
+600 
+
+256 
+
+95 
+
+20 
+
+13 
+
+1 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+1 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+43 
+
+0 
+
+Community transmission 
+
+Pending 
+
+Pending 
+
+Community transmission 
+
+Community transmission 
+
+Pending 
+
+Clusters of cases 
+
+Pending 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Sporadic cases 
+
+Clusters of cases 
+
+Sporadic cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+0 
+
+0 
+
+3 
+
+6 
+
+15 
+
+7 
+
+33 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+15 
+
+16 
+
+Reporting Country/ 
+Territory/Area 
+
+Total confirmed 
+cases 
+
+Total confirmed 
+new cases 
+
+Total deaths 
+
+Total new deaths 
+
+Transmission 
+classificationi 
+
+Days since last 
+reported case 
+
+Philippines 
+
+Australia 
+
+Malaysia 
+
+New Zealand 
+
+Viet Nam 
+
+Brunei Darussalam 
+
+Cambodia 
+
+Mongolia 
+
+Lao People's Democratic 
+Republic 
+
+Fiji 
+
+Papua New Guinea 
+
+Territoriesii 
+
+Guam 
+
+French Polynesia 
+
+New Caledonia 
+
+Northern Mariana Islands 
+(Commonwealth of the) 
+
+Other* 
+
+Grand total 
+
+10 463 
+
+6914 
+
+6535 
+
+1142 
+
+288 
+
+141 
+
+122 
+
+42 
+
+19 
+
+18 
+
+8 
+
+147 
+
+60 
+
+18 
+
+15 
+
+712 
+
+120 
+
+18 
+
+68 
+
+1 
+
+0 
+
+0 
+
+0 
+
+1 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+696 
+
+97 
+
+107 
+
+21 
+
+0 
+
+1 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+5 
+
+0 
+
+0 
+
+2 
+
+13 
+
+11 
+
+Clusters of cases 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Clusters of cases 
+
+Sporadic cases 
+
+Sporadic cases 
+
+Sporadic cases 
+
+Sporadic cases 
+
+Sporadic cases 
+
+Sporadic cases 
+
+Clusters of cases 
+
+Sporadic cases 
+
+Sporadic cases 
+
+Pending 
+
+ 
+
+- 
+
+ 
+
+Subtotal for all regions 
+
+3 855 097 
+
+95 866 
+
+265 848 
+
+6387 
+
+**See Annex 1 for data, table and figure notes.  
+
+3 855 809 
+
+95 866 
+
+265 861 
+
+6387 
+
+0 
+
+0 
+
+0 
+
+0 
+
+1 
+
+1 
+
+27 
+
+0 
+
+26 
+
+18 
+
+16 
+
+2 
+
+3 
+
+36 
+
+2 
+
+54 
+
+ 
+
+ 
+
+Technical guidance and other resources 
+–  To view all technical guidance documents regarding COVID-19, please go to this webpage.  
+
+–  Updates from WHO regional offices 
+
+–  WHO AFRO 
+
+–  WHO EMRO 
+
+–  WHO EURO 
+
+–  WHO PAHO 
+
+–  WHO SEARO 
+
+–  WHO WPRO 
+
+–  Research and Development 
+
+–  Online courses on COVID-19 and in additional national languages 
+
+–  The Strategic Preparedness and Response Plan (SPRP) outlining the support the international 
+
+community can provide to all countries to prepare and respond to the virus.  
+
+–  WHO Health Emergency dashboard 
+
+–  Weekly COVID-19 Operations Updates  
+
+Recommendations and advice for the public  
+–  Protect yourself.  
+
+–  Questions and answers 
+
+–  Travel advice 
+
+–  EPI-WIN: tailored information for individuals, organizations and communities 
+
+Case definitions  
+WHO periodically updates the Global Surveillance for human infection with coronavirus disease 
+(COVID-19) document which includes surveillance definitions.  
+
+Definition of COVID-19 death 
+
+COVID-19 death is defined for surveillance purposes as a death resulting from a clinically 
+compatible illness in a probable or confirmed COVID-19 case, unless there is a clear alternative 
+cause of death that cannot be related to COVID disease (e.g. trauma). There should be no period of 
+complete recovery between the illness and death. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Annex 1: Data, table and figure notes 
+Caution must be taken when interpreting all data presented. Differences are to be expected 
+between information products published by WHO, national public health authorities, and other 
+sources using different inclusion criteria and different data cut-off times. While steps are taken to 
+ensure accuracy and reliability, all data are subject to continuous verification and change. Case 
+detection, definitions, testing strategies, reporting practice, and lag times differ between 
+countries/territories/areas. These factors, amongst others, influence the counts presented with 
+variable underestimation of true case and death counts, and variable delays to reflecting these data 
+at global level.   
+
+The designations employed, and the presentation of these materials do not imply the expression of 
+any opinion whatsoever on the part of WHO concerning the legal status of any country, territory or 
+area or of its authorities, or concerning the delimitation of its frontiers or boundaries. Dotted and 
+dashed lines on maps represent approximate border lines for which there may not yet be full 
+agreement. Countries, territories and areas are arranged under the administering WHO region. 
+
+[1] All references to Kosovo should be understood to be in the context of the United Nations Security 
+Council resolution 1244 (1999). In the map, number of cases of Serbia and Kosovo (UNSCR 1244, 
+1999) have been aggregated for visualization purposes. 
+
+Counts reflect laboratory-confirmed cases and deaths, based on WHO case definitions unless stated 
+otherwise (see Country, territory, or area-specific updates and errata), and include both domestic 
+and repatriated cases.  
+
+Other*: includes cases reported under the international conveyance (Diamond Princess).  
+
+Due to the recent trend of countries conducting data reconciliation exercises which remove large 
+numbers of cases or deaths from their total counts, WHO will now display such data as negative 
+numbers in the “new cases” / “new deaths” columns as appropriate. This will aid readers in 
+identifying when such adjustments occur. When additional details become available that allow the 
+subtractions to be suitably apportioned to previous days, graphics will be updated accordingly. Prior 
+situation reports will not be edited; see covid19.who.int for the most up-to-date data. 
+
+Additional table notes 
+
+i Transmission classification is based on a process of country/territory/area self-reporting. 
+Classifications are reviewed on a weekly basis, may be revised as new information becomes 
+available, and are based on the highest category reported. Differing degrees of transmission may be 
+present within countries/territories/areas. Categories:  
+
+•  No cases: with no confirmed cases (not shown in table). 
+•  Sporadic cases: with one or more cases, imported or locally detected. 
+•  Clusters of cases: experiencing cases, clustered in time, geographic location and/or by common 
+
+exposures. 
+
+•  Community transmission: experiencing larger outbreaks of local transmission defined through 
+an assessment of factors including, but not limited to: large numbers of cases not linkable to 
+transmission chains; large numbers of cases from sentinel lab surveillance; and/or multiple 
+unrelated clusters in several areas of the country/territory/area. 
+•  Pending: transmission classification not been reported to WHO.  
+
+ii “Territories” include territories, areas, overseas dependencies and other jurisdictions of similar 
+status. 
+
+ 
+
+ 
+
+Country, territory, or area-specific updates and errata 
+
+Erratum 9 May 2020, Japan: Situation report no. 110 originally reported 15 628 total cases (81 new 
+cases) and 601 deaths (44 new deaths). Counts have been corrected here.  
+
+

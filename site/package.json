@@ -1,0 +1,20 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "Main site for CoVision",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Jacobs Loga",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "d3": "^5.16.0",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "popper": "^1.0.1",
+    "sqlite": "^3.0.6"
+  }
+}

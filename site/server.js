@@ -12,8 +12,8 @@
 
 // Change the port to the default 80, if there are no permission issues and port
 // 80 isn't already in use. The root folder corresponds to the "/" url.
-let port = 8080;
-let root = "./public"
+let port = 80;
+let root = "./public";
 
 // Load the library modules, and define the global constants and variables.
 // Load the promises version of fs, so that async/await can be used.
@@ -21,12 +21,16 @@ let root = "./public"
 // The file types supported are set up in the defineTypes function.
 // The paths variable is a cache of url paths in the site, to check case.
 let http = require("http");
+let sqlite = require("sqlite");
 let fs = require("fs").promises;
 let OK = 200, NotFound = 404, BadType = 415, Error = 500;
 let types, paths;
+let db_path = "./db.sqlite";
+
 
 // Start the server:
 start();
+log_db();
 
 // Check the site, giving quick feedback if it hasn't been set up properly.
 // Start the http service. Accept only requests from localhost, for security.
@@ -141,4 +145,14 @@ function defineTypes() {
         docx : undefined,      // non-standard, platform dependent, use .pdf
     }
     return types;
+}
+
+// Run code in db
+async function log_db() {
+    try {
+        db = await sqlite.open(db_path);
+        // await db.run("SOME SQL");
+        var as = await db.all("select * from cases_country_7");
+        console.log(as);
+    } catch (e) { console.log(e); }
 }

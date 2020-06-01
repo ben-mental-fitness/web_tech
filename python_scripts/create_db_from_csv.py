@@ -1,7 +1,7 @@
 import sqlite3
 import csv
 
-conn = sqlite3.connect('CoVision.db')
+conn = sqlite3.connect('CoVision_test.sqlite')
 c = conn.cursor()
 
 # Create table - SOURCES
@@ -96,14 +96,17 @@ for d in all_data:
 
     # Create table - CASES_COUNTRY_[ID] for each country
     if (d[0] not in existing_country_ids):
-        sql = "CREATE TABLE CASES_COUNTRY_%s ([date_of_event] DATE PRIMARY KEY, [cases] integer, [deaths] integer, [recoveries] integer, [tests] integer, [tests_units] text, [handwashing_facilities] float, [hospital_beds_per_100k] float, [source_id] integer, FOREIGN KEY(source_id) REFERENCES SOURCES(source_id))" % (d[0])
+        sql = "CREATE TABLE CASES_COUNTRY_%s ([date_of_event] DATE PRIMARY KEY, [cases] integer, [deaths] integer, [recoveries] integer, [tests] integer, [tests_units] text, [death_rate] float, [handwashing_facilities] float, [hospital_beds_per_100k] float, [source_id] integer, FOREIGN KEY(source_id) REFERENCES SOURCES(source_id))" % (d[0])
         c.execute(sql)
         existing_country_ids.append(d[0])
+        #input()
 
     # Aadd cases to CASES
-    sql = "INSERT INTO CASES_COUNTRY_%s VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)" % (d[0])
-    val = (d[1], d[2], d[3], d[4], d[5], d[6], d[7], d[8], d[9])
+    sql = "INSERT INTO CASES_COUNTRY_%s VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)" % (d[0])
+    #print(d)
+    val = (d[1], d[2], d[3], d[4], d[5], d[6], d[7], d[8], d[9], d[10])
     c.execute(sql, val)
+
 
 conn.commit()
 conn.close()

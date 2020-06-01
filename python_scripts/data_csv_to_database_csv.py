@@ -9,7 +9,7 @@ import datetime
 class Data_entry :
     def __init__(self, country_id = -1, date = datetime.datetime(2000, 1, 1), \
             cases = -1, deaths = -1, recoveries = -1, tests = -1, tests_units = "", \
-            death_rate = -1.1, handwashing_facilities = -1, \
+            death_rate = -1.1, handwashing_facilities = -1.1, \
             hospital_beds_per_100k = -1.1, source_id = -1):
 
         if (cases == ""):
@@ -28,7 +28,7 @@ class Data_entry :
             death_rate = -1.1
 
         if (handwashing_facilities == ""):
-            handwashing_facilities = -1
+            handwashing_facilities = -1.1
 
         if (hospital_beds_per_100k == ""):
             hospital_beds_per_100k = -1.1
@@ -183,7 +183,7 @@ def collect_from_file(filename):
             countries.append(c)
 
         d = Data_entry(country_id, all_data["date"][x], all_data["total_cases"][x], \
-                    all_data["total_deaths"][x], all_data["total_tests"][x], \
+                    all_data["total_deaths"][x], -1, all_data["total_tests"][x], \
                     all_data["tests_units"][x], all_data["cvd_death_rate"][x], \
                     all_data["handwashing_facilities"][x], all_data["hospital_beds_per_100k"][x], 0)
 

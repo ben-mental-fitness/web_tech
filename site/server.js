@@ -9,6 +9,7 @@
 // application/xhtml+xml for instant feedback on XHTML errors. Content
 // negotiation is not implemented, so old browsers are not supported. Https is
 // not supported. Add to the list of file types in defineTypes, as necessary.
+"use strict";
 
 // Change the port to the default 80, if there are no permission issues and port
 // 80 isn't already in use. The root folder corresponds to the "/" url.
@@ -25,18 +26,22 @@ let sqlite = require("sqlite");
 let fs = require("fs").promises;
 let OK = 200, NotFound = 404, BadType = 415, Error = 500;
 let types, paths;
-let db_path = "./db.sqlite";
-
+let data_db = "./data_db.sqlite";
+let contact_db = "./contact_db.sqlite"
+let stories_db = "./stories_db.sqlite"
+let stories_list = [];
 
 // Start the server:
 start();
-log_db();
+// log_db();
 
 // Check the site, giving quick feedback if it hasn't been set up properly.
 // Start the http service. Accept only requests from localhost, for security.
 // If successful, the handle function is called for each request.
 async function start() {
     try {
+        stories_list = await load_stories();
+        if (!(stories_list && stories_list.length)) throw("Failed to load stories");
         await fs.access(root);
         await fs.access(root + "/index.html");
         types = defineTypes();
@@ -54,6 +59,12 @@ async function start() {
 // Serve a request by delivering a file.
 async function handle(request, response) {
     let url = request.url;
+    let params = "";
+    let params_loc = url.lastIndexOf("?");
+    if (params_loc != -1) {
+      params = url.substring(params_loc + 1);
+      url = url.substring(0, params_loc);
+    }
     if (url.endsWith("/")) url = url + "index.html";
     let ok = await checkPath(url);
     if (! ok) return fail(response, NotFound, "URL not found (check case)");
@@ -61,6 +72,7 @@ async function handle(request, response) {
     if (type == null) return fail(response, BadType, "File type not supported");
     let file = root + url;
     let content = await fs.readFile(file);
+    content = await handle_file(content, file, type, params)
     deliver(response, type, content);
 }
 
@@ -147,12 +159,88 @@ function defineTypes() {
     return types;
 }
 
+
 // Run code in db
 async function log_db() {
     try {
-        db = await sqlite.open(db_path);
+        var db = await sqlite.open(stories_db);
         // await db.run("SOME SQL");
-        var as = await db.all("select * from cases_country_7");
+        var as = await db.all("select * from stories");
         console.log(as);
     } catch (e) { console.log(e); }
+}
+
+
+// Load stories_list from stories_db
+// Returns a list of stories or empty list if failed
+async function load_stories() {
+  var stories = [];
+  try {
+      var db = await sqlite.open(stories_db);
+      var as = await db.all("select name from stories");
+      stories = as.map(as => as.name);
+  } catch (e) { console.log(e); }
+  return stories;
+}
+
+// TODO HANDLE EVERY PAGE
+// Every page - add stories_list
+// Homepage - Load js dependent on stories list
+// About - Load data organisation
+// Data - Load data organisation
+// Contact - Load form correctness
+// Stories - Load vis or template if not implemented
+
+// Dynamically alter the content for a given file
+// Content is the content of the file at path File
+// Type is the type of file e.g. .html or .pdf
+// Params are any parameters given in the URL or an empty string
+async function handle_file(content, file, type, params) {
+  var content_str = bin2string(content);
+
+  if (["application/xhtml+xml", "text/css", "application/javascript"].includes(type)){
+    var page = file.match("/[^/]*/(?!.*/)"); // Directory of file
+    switch(page[0].slice(1, -1)) {
+        case "public":
+          console.log("public");
+          break;
+        case "about":
+          console.log("about");
+          break;
+        case "contact":
+          console.log("contact");
+          break;
+        case "data":
+          console.log("data");
+          break;
+        case "stories":
+          console.log("stories");
+          break;
+        default:
+          console.log("Page not found!")
+          break;
+    }
+  }
+
+  return content;
+}
+
+// Convert binary array to string
+// Source: https://gist.github.com/taterbase/2784890
+function bin2string(array){
+	var result = "";
+	for(var i = 0; i < array.length; ++i){
+		result+= (String.fromCharCode(array[i]));
+	}
+	return result;
+}
+
+// Convert string to binary array
+// Source: https://gist.github.com/theskumar/3427729
+function string2Bin(str) {
+  var result = [];
+  for (var i = 0; i < str.length; i++) {
+    result.push(str.charCodeAt(i).toString(2));
+  }
+  return result;
 }

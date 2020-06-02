@@ -196,13 +196,19 @@ async function load_stories() {
 // Type is the type of file e.g. .html or .pdf
 // Params are any parameters given in the URL or an empty string
 async function handle_file(content, file, type, params) {
-  var content_str = bin2string(content);
+  var content_str = content.toString("utf8");
 
-  if (["application/xhtml+xml", "text/css", "application/javascript"].includes(type)){
-    var page = file.match("/[^/]*/(?!.*/)"); // Directory of file
-    switch(page[0].slice(1, -1)) {
+  if (["application/xhtml+xml", "text/css", "application/javascript"].includes(type)) {
+    var page = file.match("/[^/]*/(?!.*/)")[0].slice(1, -1); // Directory of file
+    if (type == "application/xhtml+xml") {
+        if (page != "public") content_str = await add_header_and_footer(content_str, page);
+        content_str = handle_stories_dropdown(content_str);
+    }
+
+    switch(page) {
         case "public":
           console.log("public");
+          content_str = handle_file_public(content_str, type, params);
           break;
         case "about":
           console.log("about");
@@ -220,27 +226,39 @@ async function handle_file(content, file, type, params) {
           console.log("Page not found!")
           break;
     }
+
+    content = Buffer.from(content_str, "utf-8");
   }
 
   return content;
 }
 
-// Convert binary array to string
-// Source: https://gist.github.com/taterbase/2784890
-function bin2string(array){
-	var result = "";
-	for(var i = 0; i < array.length; ++i){
-		result+= (String.fromCharCode(array[i]));
-	}
-	return result;
+// Load stories into dropdown menu
+function handle_stories_dropdown(content) {
+  var dropdown_html = "";
+  for (let s of stories_list) {
+    var s_page = s.toLowerCase().replace(/[^\w\s]/g, "").replace(/ /g, "_");
+    var s_html = ('<a class="dropdown-item" href="./stories/$.html">£</a>').replace("$", s_page).replace("£", s);
+    dropdown_html = dropdown_html.concat(s_html);
+  }
+
+  content = content.replace("<!-- $handle_stories_dropdown -->", dropdown_html);
+  return content;
 }
 
-// Convert string to binary array
-// Source: https://gist.github.com/theskumar/3427729
-function string2Bin(str) {
-  var result = [];
-  for (var i = 0; i < str.length; i++) {
-    result.push(str.charCodeAt(i).toString(2));
-  }
-  return result;
+// Add header and footer files if not homepage
+async function add_header_and_footer(content_str, page) {
+  let header = await fs.readFile("public/page_navbar.html");
+  var header_str = header.toString("utf8");
+  let footer = await fs.readFile("public/page_footer.html");
+  var footer_str = footer.toString("utf8");
+  content_str = content_str.replace("<!-- $page_header -->", header_str);
+  content_str = content_str.replace("<!-- $page_footer -->", footer_str);
+  content_str = content_str.replace("<!-- $page_name -->", page.charAt(0).toUpperCase() + page.slice(1));
+  return content_str;
+}
+
+// Handle a public file
+function handle_file_public(content, type, params) {
+  return content;
 }

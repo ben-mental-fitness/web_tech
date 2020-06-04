@@ -21,12 +21,25 @@ a.page-name, a.page-name:hover {
   padding-right: 5vw;
 }
 
+html, body {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+}
+
 /* footer styling */
+.push-footer {
+  height: 100px; /* at least 75px */
+}
+
 #footer {
   background-color: rgb(133, 133, 133);
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
+  position: absolute;
+  bottom:0;
+  left:0;
 }
 
 .footer-link {

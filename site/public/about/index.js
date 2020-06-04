@@ -12,20 +12,23 @@ var info_text = ["This is info about countries.",
                 "This is everything else. I am going to fill space like lorem ipmsum does but not quite since I don't know latin  but what I do know is that the quick brown fox jumps over the lazy dog."];
 
 // ON PAGE LOAD
-window.onload = function() {
+addEventListener('load', start);
+function start() {
 
   // Local vars
   var svgContainer = d3.select("#data-rep-vis");
-  var x1 = document.getElementById("data-rep-vis").clientWidth * 0.2;
-  var x_space = document.getElementById("data-rep-vis").clientWidth * 0.16;
+  let width = Math.round(svgContainer.style('width').slice(0, -2));
+  var x1 = width * 0.2;
+  var x_space = width * 0.16;
   var y = 50;
   var r = 40;
-  var colours = ["#70C045", "#FF0000", "#ED7D31", "#00FFFF", "#9F4A9D"];
+  var colours = ["#71BF45", "#0072BB", "#FEF200", "#8DD8F8", "#A1499D"];
   var text = ["Country Bios", "Cases Data", "Response Strategy", "Good News", "Wildcards"];
 
   // Create pop up shapes
   var tx = x1;
   var ty = y + r + 30;
+
   info_triangle = svgContainer.append("polygon")
                   .attr("points", [[tx, ty],[tx - 15, ty + 30],[tx + 15, ty + 30]])
                   .attr("fill", colours[0])
@@ -34,7 +37,7 @@ window.onload = function() {
   info_rectangle = svgContainer.append("rect")
                               .attr("x", x1 * 0.5)
                               .attr("y", ty + 30)
-                              .attr("width", document.getElementById("data-rep-vis").clientWidth * 0.8)
+                              .attr("width", width * 0.8)
                               .attr("height", 150)
                               .attr("fill", colours[0])
                               .attr("id", "rect");

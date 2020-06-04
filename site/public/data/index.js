@@ -15,13 +15,14 @@ function reset_all_nodes() {
 };
 
 // ON PAGE LOAD
-window.onload = function() {
+addEventListener('load', start);
+function start() {
 
   // Local vars
   var svgContainer = d3.select("#data-rep-vis");
   var x1 = document.getElementById("data-rep-vis").clientWidth * 0.2;
   var x_space = document.getElementById("data-rep-vis").clientWidth * 0.16;
-  var colours = ["#70C045", "#FF0000", "#ED7D31", "#00FFFF", "#9F4A9D"];
+  var colours = ["#71BF45", "#0072BB", "#FEF200", "#8DD8F8", "#A1499D"];
   var text = ["Country Bios", "Cases Data", "Response Strategy", "Good News", "Wildcards"];
 
   // Create pop up shapes

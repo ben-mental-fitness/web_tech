@@ -1,99 +1,20 @@
 "use strict";
 
-var svg = d3.select("svg"),
-    width = +(0.9 * window.screen.width),
-    height = +(0.75 * window.screen.height);
+var  width = +(0.9 * window.screen.width);
+var height = +(0.75 * window.screen.height);
 var sf = 9;
 
 //Shrinking scripts
 var hov_ani;
 var rad_ani = [0,0];
-document.body.addEventListener('click', stop_shrinking);
+var link;
+var node;
+window.addEventListener('click', stop_shrinking);
 
 var simulation = d3.forceSimulation()
     .force("link", d3.forceLink().id(function(d) { return d.id; }))
     .force("charge", d3.forceManyBody())
-    .force("center", d3.forceCenter(width / 2, height / 2));
-
-var colors = {
-  "4": "#ED7D31",
-  "7": "#70C045",
-  "8": "#00FFFF",
-  "16": "#9F4A9D",
-  "20": "#9F4A9D",
-  "23": "#FF0000",
-  "32": "#FFFFFF"
-}
-
-var graph = {
-    "nodes": [
-      {"id": "CoVision", "group": 32},
-      {"id": "One Earth", "group": 7},
-      {"id": "The Passage of Time", "group": 23},
-      {"id": "You're the Boss", "group": 4},
-      {"id": "WHO said what?", "group": 16},
-      {"id": "WHO did what?", "group": 20},
-      {"id": "Magic Money Tree", "group": 16},
-      {"id": "Escape Rooms", "group": 4},
-      {"id": "One People", "group": 8}
-    ],
-    "links": [
-      {"source": "CoVision", "target": "One Earth", "value": 7},
-      {"source": "CoVision", "target": "The Passage of Time", "value": 23},
-      {"source": "CoVision", "target": "You're the Boss", "value": 4},
-      {"source": "CoVision", "target": "WHO said what?", "value": 16},
-      {"source": "CoVision", "target": "WHO did what?", "value": 20},
-      {"source": "CoVision", "target": "Magic Money Tree", "value": 16},
-      {"source": "CoVision", "target": "Escape Rooms", "value": 4},
-      {"source": "CoVision", "target": "One People", "value": 8},
-      {"source": "WHO said what?", "target": "WHO did what?", "value": 16}
-    ]
-  };
-
-
-var link = svg.append("g")
-    .attr("class", "links")
-  .selectAll("line")
-  .data(graph.links)
-  .enter().append("line")
-    .attr("stroke-width", function(d) { return d.value / 2; })
-    .attr("stroke", "#00FFFF");
-
-var node = svg.append("g")
-    .attr("class", "nodes")
-  .selectAll("g")
-  .data(graph.nodes)
-  .enter().append("g")
-
-var circles = node.append("circle")
-    .attr("r", function(d) {return d.group * 4; })
-    .attr("fill", function(d) {return colors[d.group];})
-    .attr("stroke", "#00FFFF")
-    .call(d3.drag()
-        .on("start", dragstarted)
-        .on("drag", dragged)
-        .on("end", dragended));
-
-for (var i = 0; i < circles["_groups"][0].length; i ++) {
-  circles["_groups"][0][i].onmouseover = hoverclick;
-};
-
-var lables = node.append("text")
-    .text(function(d) {
-      return d.id;
-    })
-    .attr('x', 6)
-    .attr('y', 3);
-
-node.append("title")
-    .text(function(d) { return d.id; });
-
-simulation
-    .nodes(graph.nodes)
-    .on("tick", ticked);
-
-simulation.force("link")
-    .links(graph.links);
+    .force("center", d3.forceCenter(width / 2, height / 2)); // LEAVE
 
 function ticked() {
   link
@@ -136,8 +57,7 @@ function hoverclick(d) {
       d.target.setAttribute("r", r_orig - 3);
     } else {
       clearInterval(hov_ani);
-      console.log("Load new page")
-      //window.location.href = 'https://www.gapminder.org/about-gapminder/';
+      window.location.href = '/stories/' + rad_ani[0].id;
     };
 
   }, 100);
@@ -148,4 +68,90 @@ function stop_shrinking() {
   if (rad_ani[0] != 0) {
     rad_ani[0].setAttribute("r", rad_ani[1]);
   };
+}
+
+// ON PAGE LOAD
+addEventListener('load', start);
+function start() {
+
+  var svg = d3.select("svg");
+
+  var colors = {
+    "4": "#FEF200",
+    "7": "#71BF45",
+    "8": "#8DD8F8",
+    "16": "#A1499D",
+    "20": "#A1499D",
+    "23": "#FF0000",
+    "32": "#FFFFFF"
+  }
+
+  var graph = {
+      "nodes": [
+        {"id": "CoVision", "group": 32},
+        {"id": "One Earth", "group": 7},
+        {"id": "The Passage of Time", "group": 23},
+        {"id": "You're the Boss", "group": 4},
+        {"id": "WHO said what?", "group": 16},
+        {"id": "WHO did what?", "group": 20},
+        {"id": "Magic Money Tree", "group": 16},
+        {"id": "Escape Rooms", "group": 4},
+        {"id": "One People", "group": 8}
+      ],
+      "links": [
+        {"source": "CoVision", "target": "One Earth", "value": 7},
+        {"source": "CoVision", "target": "The Passage of Time", "value": 23},
+        {"source": "CoVision", "target": "You're the Boss", "value": 4},
+        {"source": "CoVision", "target": "WHO said what?", "value": 16},
+        {"source": "CoVision", "target": "WHO did what?", "value": 20},
+        {"source": "CoVision", "target": "Magic Money Tree", "value": 16},
+        {"source": "CoVision", "target": "Escape Rooms", "value": 4},
+        {"source": "CoVision", "target": "One People", "value": 8},
+        {"source": "WHO said what?", "target": "WHO did what?", "value": 16}
+      ]
+    };
+
+
+  link = svg.append("g")
+      .attr("class", "links")
+      .selectAll("line")
+      .data(graph.links)
+      .enter().append("line")
+      .attr("stroke-width", function(d) { return d.value / 2; })
+      .attr("stroke", "#00FFFF");
+
+  node = svg.append("g")
+      .attr("class", "nodes")
+      .selectAll("g")
+      .data(graph.nodes)
+      .enter().append("g")
+
+  var circles = node.append("circle")
+      .attr("r", function(d) {return d.group * 4; })
+      .attr("fill", function(d) {return colors[d.group];})
+      .attr("id", function(d) {return d.id.toLowerCase().replace(/[^\w\s]/g, "").replace(/ /g, "_");})
+      .attr("stroke", "#00FFFF")
+      .call(d3.drag()
+          .on("start", dragstarted)
+          .on("drag", dragged)
+          .on("end", dragended));
+
+  for (var i = 1; i < circles["_groups"][0].length; i ++) {
+     circles["_groups"][0][i].onmouseover = hoverclick;
+  };
+
+  var lables = node.append("text")
+      .text(function(d) {
+        return d.id;
+      })
+      .attr('x', 6)
+      .attr('y', 3);
+
+  simulation
+      .nodes(graph.nodes)
+      .on("tick", ticked);
+
+  simulation.force("link")
+      .links(graph.links);
+
 }

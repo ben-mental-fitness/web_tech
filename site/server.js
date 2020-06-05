@@ -221,6 +221,7 @@ async function handle_file(content, file, type, params) {
           break;
         case "stories":
           console.log("stories");
+          content_str = handle_file_stories(content_str, type, params);
           break;
         default:
           console.log("Page not found!")
@@ -238,7 +239,7 @@ function handle_stories_dropdown(content) {
   var dropdown_html = "";
   for (let s of stories_list) {
     var s_page = s.toLowerCase().replace(/[^\w\s]/g, "").replace(/ /g, "_");
-    var s_html = ('<a class="dropdown-item" href="./stories/$.html">£</a>').replace("$", s_page).replace("£", s);
+    var s_html = ('<a class="dropdown-item" href="/stories/\?$">£</a>').replace("$", s_page).replace("£", s);
     dropdown_html = dropdown_html.concat(s_html);
   }
 
@@ -260,5 +261,18 @@ async function add_header_and_footer(content_str, page) {
 
 // Handle a public file
 function handle_file_public(content, type, params) {
+  return content;
+}
+
+function handle_file_stories(content, type, params) {
+  if (type != "application/xhtml+xml") {
+    return content;
+  };
+
+  if (!params.includes("one_earth") & !params.includes("the_passage_of_time")){
+    console.log(params);
+    content = content.replace('<!-- $story_js -->', '<script type = "text/javascript" src = "/stories/default.js" defer="defer"></script>');
+  }
+
   return content;
 }

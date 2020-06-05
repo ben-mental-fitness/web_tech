@@ -46,6 +46,7 @@ function start() {
                               .attr("x", x1 * 0.6)
                               .attr("y", ty + 55)
                               .attr("height", 150)
+                              .attr('textLength', width * 0.8)
                               .attr("id", "text")
   document.getElementById("text").innerHTML = info_text[0];
 

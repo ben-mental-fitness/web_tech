@@ -55,6 +55,23 @@ html, body {
   background-color: rgb(0, 255, 255);
 }
 
+/* home page styling */
+#home_body {
+  background-image: url(/media/logo_orig.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  opacity: 1;
+}
+
+#home_svg {
+  opacity: 0.1;
+}
+
+#home_svg:hover {
+  opacity: 0.8;
+}
+
 /* about page styling */
 #about-page {
   width: 90vw;
@@ -86,4 +103,44 @@ html, body {
   font-family: Tahoma, Geneva, sans-serif;
   color: rgb(100, 100, 100);
   font-size: 1.1em;
+}
+
+/* story pages styling */
+#story_not_found_text {
+  font-family: Tahoma, Geneva, sans-serif;
+  color: #00FFFF;
+  font-size: 3em;
+}
+
+#story_default_img {
+  width: 70vh;
+  height: 70vh;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  animation: image_carousel 24s linear infinite;
+    -webkit-animation: image_carousel 24s linear infinite;
+    -moz-animation: image_carousel 24s linear infinite;
+    -o-animation: image_carousel 24s linear infinite;
+    -ms-animation: image_carousel 24s linear infinite;
+}
+
+@keyframes image_carousel {
+ 0% {background-image: url(/media/orbit/pos_1.png)}
+ 8% {background-image: url(/media/orbit/pos_2.png)}
+ 17% {background-image: url(/media/orbit/pos_3.png)}
+ 25% {background-image: url(/media/orbit/pos_4.png)}
+ 33% {background-image: url(/media/orbit/pos_5.png)}
+ 42% {background-image: url(/media/orbit/pos_6.png)}
+ 50% {background-image: url(/media/orbit/pos_7.png)}
+ 58% {background-image: url(/media/orbit/pos_8.png)}
+ 67% {background-image: url(/media/orbit/pos_9.png)}
+ 75% {background-image: url(/media/orbit/pos_10.png)}
+ 83% {background-image: url(/media/orbit/pos_11.png)}
+ 92% {background-image: url(/media/orbit/pos_12.png)}
+ 100% {background-image: url(/media/orbit/pos_1.png)}
 }

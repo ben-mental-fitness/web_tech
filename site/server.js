@@ -23,17 +23,17 @@ let root = "./public";
 // The paths variable is a cache of url paths in the site, to check case.
 let http = require("http");
 let sqlite = require("sqlite");
+let qs = require("querystring");
 let fs = require("fs").promises;
 let OK = 200, NotFound = 404, BadType = 415, Error = 500;
 let types, paths;
 let data_db = "./data_db.sqlite";
 let contact_db = "./contact_db.sqlite"
-let stories_db = "./stories_db.sqlite"
+let meta_db = "./meta_db.sqlite"
 let stories_list = [];
 
 // Start the server:
 start();
-// log_db();
 
 // Check the site, giving quick feedback if it hasn't been set up properly.
 // Start the http service. Accept only requests from localhost, for security.
@@ -71,8 +71,16 @@ async function handle(request, response) {
     let type = findType(url);
     if (type == null) return fail(response, BadType, "File type not supported");
     let file = root + url;
-    let content = await fs.readFile(file);
-    content = await handle_file(content, file, type, params)
+    let content = "";
+
+    if (request.method == 'POST' & params != "") {
+      return handle_post(response, request, params, url);
+    } else if (request.method == 'GET' & params != "" & url != "/stories/index.html")  {
+      return handle_get(response, request, params, url);
+    } else {
+      content = await fs.readFile(file);
+      content = await handle_file(content, file, type, params);
+    }
     deliver(response, type, content);
 }
 
@@ -160,23 +168,12 @@ function defineTypes() {
 }
 
 
-// Run code in db
-async function log_db() {
-    try {
-        var db = await sqlite.open(stories_db);
-        // await db.run("SOME SQL");
-        var as = await db.all("select * from stories");
-        console.log(as);
-    } catch (e) { console.log(e); }
-}
-
-
-// Load stories_list from stories_db
+// Load stories_list from stories in meta_db
 // Returns a list of stories or empty list if failed
 async function load_stories() {
   var stories = [];
   try {
-      var db = await sqlite.open(stories_db);
+      var db = await sqlite.open(meta_db);
       var as = await db.all("select name from stories");
       stories = as.map(as => as.name);
   } catch (e) { console.log(e); }
@@ -198,12 +195,10 @@ async function load_stories() {
 async function handle_file(content, file, type, params) {
   var content_str = content.toString("utf8");
 
-  if (["application/xhtml+xml", "text/css", "application/javascript"].includes(type)) {
+  if (["application/xhtml+xml"].includes(type)) {
     var page = file.match("/[^/]*/(?!.*/)")[0].slice(1, -1); // Directory of file
-    if (type == "application/xhtml+xml") {
-        if (page != "public") content_str = await add_header_and_footer(content_str, page);
-        content_str = handle_stories_dropdown(content_str);
-    }
+    if (page != "public") content_str = await add_header_and_footer(content_str, page);
+    content_str = handle_stories_dropdown(content_str);
 
     switch(page) {
         case "public":
@@ -264,6 +259,65 @@ function handle_file_public(content, type, params) {
   return content;
 }
 
+async function handle_post(response, request, params, url) {
+  if (url != "/contact/index.html" || params != "submit"){
+    return fail(response, BadType, "Bad URL format.");
+  }
+
+  var content = "";
+  request.on('data', chunk => {
+    content += chunk.toString();
+  });
+  request.on('end', () => {
+      content = qs.parse(content);
+      if (!validate_post_content(content)) return fail(response, BadType, "Bad form input.");
+      return insert_message_into_db(response, content);
+  });
+
+  return;
+}
+
+function validate_post_content(content) {
+  return verify_content_length(content.name, 5, 50) &
+        verify_content_length(content.email, 7, 50) &
+        verify_content_length(content.subject, 10, 50) &
+        verify_content_length(content.message, 20, 280) &
+        verify_email(content.email) &
+        verify_no_sql(content.name) &
+        verify_no_sql(content.email) &
+        verify_no_sql(content.subject) &
+        verify_no_sql(content.message);
+}
+
+// Check that object is correct length
+function verify_content_length(content, minLength, maxLength) {
+  return (content.length >= minLength & content.length <= maxLength);
+}
+
+// Check that email is valid and not sql
+function verify_email(email_string) {
+  const re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return (re.test(email_string));
+}
+
+// Check for possible sql injection
+function verify_no_sql(content) {
+  const banned_words = ["SELECT", "DROP", "UPDATE", "UNION", "ALTER", "CREATE", "DELETE", "EXISTS", "EXEC", "INSERT", "JOIN", "ORDER", "TRUNCATE"];
+  return !banned_words.reduce((acc, b) =>  acc || content.includes(b) , 0);
+}
+
+async function insert_message_into_db(response, content) {
+  try {
+      var db = await sqlite.open(contact_db);
+      var as = await db.all("select contact_id from messages order by contact_id desc limit 1");
+      var maxid = as[0].contact_id;
+      var date = new Date();
+      var now = date.getFullYear() + "/" + (date.getMonth()+1) + "/" + date.getDate();
+      await db.run("insert into messages values (?, ?, ?, ?, ?, ?)", [maxid + 1, now, content.name, content.email, content.subject, content.message]);
+  } catch (e) { console.log(e); return fail(response, Error, "Database error."); }
+  return deliver(response, "text/plain", "");
+}
+
 function handle_file_stories(content, type, params) {
   if (type != "application/xhtml+xml") {
     return content;
@@ -275,4 +329,48 @@ function handle_file_stories(content, type, params) {
   }
 
   return content;
+}
+
+function handle_get(response, request, params, url) {
+  if (url != "/contact/index.html" || params != "submit"){}
+  switch(url + '?' + params) {
+      case "/index.html?stories":
+        return deliver(response, "text/plain", stories_list.toString());
+        break;
+      case "/about/index.html?categories":
+        get_categories(response);
+        break;
+      case "/data/index.html?categories":
+        get_categories_data(response);
+        break;
+      default:
+        return fail(response, BadType, "Bad URL format.");
+        break;
+  }
+
+  return;
+}
+
+async function get_categories(response) {
+  try {
+      var db = await sqlite.open(meta_db);
+      var as = await db.all("select * from categories");
+  } catch (e) { console.log(e); return fail(response, Error, "Database error."); }
+  return deliver(response, "application/json", JSON.stringify(as));
+}
+
+async function get_categories_data(response) {
+  try {
+      var db = await sqlite.open(meta_db);
+      var as = await db.all("select * from categories");
+      db = await sqlite.open(data_db);
+      for (var index = 0; index < as.length; index ++) {
+        var sources= await db.all("select * from sources where category_id = ?", as[index].category_id);
+        as[index].sources = [];
+        for (var ind = 0; ind <sources.length; ind++) {
+          as[index].sources.push(JSON.stringify(sources[ind]));
+        }
+      }
+  } catch (e) { console.log(e); return fail(response, Error, "Database error."); }
+  return deliver(response, "text/plain", JSON.stringify(as));
 }

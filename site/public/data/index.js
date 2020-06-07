@@ -5,6 +5,9 @@ var circles = [];
 var headings = [];
 var y = 50;
 var r = 40;
+var colours;
+var text;
+var data;
 
 // Move all nodes back to start pos
 function reset_all_nodes() {
@@ -14,50 +17,70 @@ function reset_all_nodes() {
   };
 };
 
+// Handle response
+async function fetch_categories_data(){
+  await fetch( "/data/?categories", {
+    method: 'GET',
+    headers: {'Content-Type': 'text/plain'}
+  }).then(function(response) {
+    return response.text();
+  }).then(function(response) {
+    let response_dict = JSON.parse(response);
+    text = response_dict.map(r => r.name);
+    colours = response_dict.map(r => r.colour);
+    data = response_dict.map(r => r.sources);
+  });
+  return;
+}
+
+function data_have_click(source_id, index) {
+  var data_have = JSON.parse(data[index][source_id]);
+  // var text = '<h1><b>' + data_have.headline + '</b></h1>'
+  //           +'<p><b>Published:</b> ' + data_have.published + '</p>'
+  //           +'<p><b>Accessed:</b> ' + data_have.accessed + '</p>'
+  //           +'<p><b>Description:</b> ' + data_have.snippet + '</p>'
+  //           +'<a href="' + data_have.reference_link + '">'
+  //           + data_have.author + '</a>';
+
+  var text = data_have.headline.toUpperCase() + '\n'
+            +'Published: ' + data_have.published + '\n'
+            +'Accessed: ' + data_have.accessed + '\n'
+            +'Description: ' + data_have.snippet + '\n'
+            +'Author: ' + data_have.author + '\n'
+            +'Link: ' + data_have.reference_link;
+  alert(text);
+  return;
+}
+
+function wrap_text(index) {
+  var text = "";
+  if (data[index].length == 0) {
+    text = "<p>We have no data for this category.</p>"
+  } else {
+    text = data[index].map(d => '<p id="data_have_' + JSON.parse(d).source_id + '" onclick = "data_have_click('
+      + JSON.parse(d).source_id + ', ' + index + ');" ><b>'
+      + JSON.parse(d).headline + '</b></p>').toString().replace(/>,</g, "><");
+  }
+  return text;
+}
+
 // ON PAGE LOAD
 addEventListener('load', start);
-function start() {
+async function start() {
 
   // Local vars
   var svgContainer = d3.select("#data-rep-vis");
   var x1 = document.getElementById("data-rep-vis").clientWidth * 0.2;
   var x_space = document.getElementById("data-rep-vis").clientWidth * 0.16;
-  var colours = ["#71BF45", "#0072BB", "#FEF200", "#8DD8F8", "#A1499D"];
-  var text = ["Country Bios", "Cases Data", "Response Strategy", "Good News", "Wildcards"];
+
+  await fetch_categories_data();
 
   // Create pop up shapes
   var tx = x1;
   var ty = y + r + 30;
-
-  var info_rectangle_have = svgContainer.append("rect")
-                              .attr("x", x1 * 0.3)
-                              .attr("y", ty + 110)
-                              .attr("width", document.getElementById("data-rep-vis").clientWidth * 0.4)
-                              .attr("height", 200)
-                              .attr("fill", colours[0])
-                              .attr("id", "rect_have");
-
-  var info_textbox_have = svgContainer.append("text")
-                              .attr("x", x1 * 0.4)
-                              .attr("y", ty + 125)
-                              .attr("height", 200)
-                              .attr("id", "text_have")
-  document.getElementById("text_have").innerHTML = "HAVE";
-
-  var info_rectangle_need = svgContainer.append("rect")
-                              .attr("x", (x1 * 0.3) + (document.getElementById("data-rep-vis").clientWidth * 0.5))
-                              .attr("y", ty + 110)
-                              .attr("width", document.getElementById("data-rep-vis").clientWidth * 0.4)
-                              .attr("height", 200)
-                              .attr("fill", colours[0])
-                              .attr("id", "rect_need");
-
-  var info_textbox_need = svgContainer.append("text")
-                              .attr("x", (x1 * 0.4) + (document.getElementById("data-rep-vis").clientWidth * 0.5))
-                              .attr("y", ty + 125)
-                              .attr("height", 200)
-                              .attr("id", "text_need")
-  document.getElementById("text_need").innerHTML = "NEED";
+  var data_have = wrap_text(0);
+  document.getElementById("data-have-dropdowns").style.backgroundColor = colours[0];
+  document.getElementById("data-have-dropdowns").innerHTML = data_have;
 
   // Create topic nodes and titles
   for (let i = 0; i < 5; i++) {
@@ -75,10 +98,10 @@ function start() {
                   .text(text[i]);
 
     circle.on("click", function() {
-      document.getElementById("rect_have").setAttribute("fill", colours[i]);
-      document.getElementById("rect_need").setAttribute("fill", colours[i]);
       reset_all_nodes();
-
+      data_have = wrap_text(i);
+      document.getElementById("data-have-dropdowns").innerHTML = data_have;
+      document.getElementById("data-have-dropdowns").style.backgroundColor = colours[i];
       document.getElementById("circle" + i).setAttribute("cy", y + 80);
       document.getElementById("heading" + i).setAttribute("dy", y + r + 100);
     });

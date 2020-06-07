@@ -10,6 +10,7 @@ var sf = Math.round(width / 200);
 var hov_ani = {};
 var link;
 var node;
+var stories;
 window.addEventListener('click', stop_shrinking);
 
 var simulation = d3.forceSimulation()
@@ -60,7 +61,6 @@ function hoverclick(d) {
       d.target.setAttribute("r", r_orig - 3);
     } else {
       stop_shrinking();
-      console.log("/stories/?" + d.target.id);
       window.location.href = '/stories/?' + d.target.id;
     };
 
@@ -77,40 +77,63 @@ function stop_shrinking() {
   };
 }
 
+// Handle response
+async function fetch_stories(){
+  await fetch( "/index.html?stories", {
+    method: 'GET',
+    headers: {'Content-Type': 'text/plain'}
+  }).then(function(response) {
+    return response.text();
+  }).then(function(response) {
+    stories = response.split(',');
+    stories.push("CoVision");
+  });
+  return;
+}
+
 // ON PAGE LOAD
 addEventListener('load', start);
-function start() {
+async function start() {
+  await fetch_stories();
 
   var svg = d3.select("svg");
+  var graph_nodes = stories.map(function(s) {
+    return {"id": s, "group": 16};
+  });
+  graph_nodes[graph_nodes.length - 1].group = 32;
+  var graph_links = stories.map(function(s) {
+    return {"source": "CoVision", "target": s, "value": 8};
+  });
+  graph_links.pop();
 
-  var graph = {
-      "nodes": [
-        {"id": "CoVision", "group": 32},
-        {"id": "One Earth", "group": 16}, // 7},
-        {"id": "The Passage of Time", "group": 16}, //23},
-        {"id": "You're the Boss", "group": 16}, //4},
-        {"id": "WHO said what?", "group": 16},
-        {"id": "WHO did what?", "group": 16}, //20},
-        {"id": "Magic Money Tree", "group": 16},
-        {"id": "Escape Rooms", "group": 16}, //4},
-        {"id": "One People", "group": 16}, //8}
-      ],
-      "links": [
-        {"source": "CoVision", "target": "One Earth", "value": 8}, // 7},
-        {"source": "CoVision", "target": "The Passage of Time", "value": 8}, // 23},
-        {"source": "CoVision", "target": "You're the Boss", "value": 8}, // 4},
-        {"source": "CoVision", "target": "WHO said what?", "value": 8}, // 16},
-        {"source": "CoVision", "target": "WHO did what?", "value": 8}, // 20},
-        {"source": "CoVision", "target": "Magic Money Tree", "value": 8}, // 16},
-        {"source": "CoVision", "target": "Escape Rooms", "value": 8}, // 4},
-        {"source": "CoVision", "target": "One People", "value": 8}
-      ]
-    };
+  // var graph = {
+  //     "nodes": [
+  //       {"id": "CoVision", "group": 32},
+  //       {"id": "One Earth", "group": 16}, // 7},
+  //       {"id": "The Passage of Time", "group": 16}, //23},
+  //       {"id": "You're the Boss", "group": 16}, //4},
+  //       {"id": "WHO said what?", "group": 16},
+  //       {"id": "WHO did what?", "group": 16}, //20},
+  //       {"id": "Magic Money Tree", "group": 16},
+  //       {"id": "Escape Rooms", "group": 16}, //4},
+  //       {"id": "One People", "group": 16}, //8}
+  //     ],
+  //     "links": [
+  //       {"source": "CoVision", "target": "One Earth", "value": 8}, // 7},
+  //       {"source": "CoVision", "target": "The Passage of Time", "value": 8}, // 23},
+  //       {"source": "CoVision", "target": "You're the Boss", "value": 8}, // 4},
+  //       {"source": "CoVision", "target": "WHO said what?", "value": 8}, // 16},
+  //       {"source": "CoVision", "target": "WHO did what?", "value": 8}, // 20},
+  //       {"source": "CoVision", "target": "Magic Money Tree", "value": 8}, // 16},
+  //       {"source": "CoVision", "target": "Escape Rooms", "value": 8}, // 4},
+  //       {"source": "CoVision", "target": "One People", "value": 8}
+  //     ]
+  //   };
 
   link = svg.append("g")
       .attr("class", "links")
       .selectAll("line")
-      .data(graph.links)
+      .data(graph_links)
       .enter().append("line")
       .attr("stroke-width", function(d) { return d.value * sf / 16; })
       .attr("stroke", "#00FFFF");
@@ -118,7 +141,7 @@ function start() {
   node = svg.append("g")
       .attr("class", "nodes")
       .selectAll("g")
-      .data(graph.nodes)
+      .data(graph_nodes)
       .enter().append("g")
 
   var circles = node.append("circle")
@@ -131,7 +154,7 @@ function start() {
           .on("drag", dragged)
           .on("end", dragended));
 
-  for (var i = 1; i < circles["_groups"][0].length; i ++) {
+  for (var i = 0; i < circles["_groups"][0].length - 1; i ++) {
      circles["_groups"][0][i].onmouseover = hoverclick;
   };
 
@@ -144,13 +167,13 @@ function start() {
       .attr('x', function(d) {return -(d.group * (sf / 2 - 1)); })
       .attr('y', 0);
 
-  labels["_groups"][0][0].innerHTML = "";
+  labels["_groups"][0][stories.length - 1].innerHTML = "";
 
   simulation
-      .nodes(graph.nodes)
+      .nodes(graph_nodes)
       .on("tick", ticked);
 
   simulation.force("link")
-      .links(graph.links);
+      .links(graph_links);
 
 }

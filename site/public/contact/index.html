@@ -17,37 +17,42 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <script type = "text/javascript" src="https://d3js.org/d3.v5.min.js"></script>
   <script type = "text/javascript" src = "https://d3js.org/d3-dsv.v1.min.js"></script>
+  <script type="text/javascript" src="/contact/index.js" defer="defer"></script>
 </head>
 
 <body>
 <!-- $page_header -->
 
   <!-- Main body -->
-  <div class="container-fluid">
+  <div class="container-fluid" id = "contact_page">
     <div class="row justify-content-around">
 
       <div class="col-sm-3">
         <div class="form-group">
          <label for="contact-name">Your name</label>
-         <input type="text" class="form-control" id="contact-name"/>
+         <input type="text" class="form-control" id="contact-name" minlength= "5" maxlength="50"/>
         </div>
         <div class="form-group">
          <label for="contact-email">Your email</label>
-         <input type="text" class="form-control" id="contact-email"/>
+         <input type="text" class="form-control" id="contact-email" minlength= "7" maxlength="50"/>
         </div>
         <div class="form-group">
          <label for="contact-subject">Your message subject</label>
-         <input type="text" class="form-control" id="contact-subject"/>
+         <input type="text" class="form-control" id="contact-subject" minlength= "10" maxlength="50"/>
         </div>
       </div>
 
       <div class="col-sm-6">
         <div class="form-group">
-         <label for="comment">Your message</label>
-         <textarea class="form-control" rows="8" id="contact-body"></textarea>
+         <label for="comment" id="contact-body-label">Your message (0 / 280 characters)</label>
+         <textarea class="form-control" rows="8" id="contact-body" minlength="20" maxlength="280" oninput="count_length()"></textarea>
         </div>
       </div>
 
+    </div>
+
+    <div class="row justify-content-around">
+      <button id="contact_submit" onclick="submit_form()">Send Message</button>
     </div>
   </div>
 

@@ -6,7 +6,7 @@ c = conn.cursor()
 
 # Create table - SOURCES
 c.execute('''CREATE TABLE SOURCES
-            ([source_id] INTEGER PRIMARY KEY, [published] date, [accessed] date, [reference_link] text, [author] text, [headline] text, [snippet] text)''')
+            ([source_id] INTEGER PRIMARY KEY, [published] date, [accessed] date, [reference_link] text, [author] text, [headline] text, [snippet] text, [category_id] integer)''')
 
 # Create table - COUNTRIES
 c.execute('''CREATE TABLE COUNTRIES
@@ -29,10 +29,9 @@ with open("database_data/sources.csv") as csv_file:
         all_data.append(row)
 
 all_data = all_data[1:]
-
 for d in all_data:
-    sql = "INSERT INTO SOURCES VALUES (?, ?, ?, ?, ?, ?, ?)"
-    val = (d[0], d[1], d[2], d[3], d[4], d[5], d[6])
+    sql = "INSERT INTO SOURCES VALUES (?, ?, ?, ?, ?, ?, ?, ?)"
+    val = (d[0], d[1], d[2], d[3], d[4], d[5], d[6], d[7])
     c.execute(sql, val)
 
 # Add countries to COUNTRIES
@@ -43,7 +42,6 @@ with open("database_data/countries.csv") as csv_file:
         all_data.append(row)
 
 all_data = all_data[1:]
-
 for d in all_data:
     if d == []:
         continue

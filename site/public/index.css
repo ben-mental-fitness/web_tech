@@ -73,7 +73,7 @@ html, body {
 }
 
 /* about page styling */
-#about-page {
+#about-page{
   width: 90vw;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -99,6 +99,26 @@ html, body {
 }
 
 /* contact page styling */
+#contact_page {
+  width: 95vw;
+  margin: 1vw 1vw 1vw 1vw;
+  padding: 1vw 1vw 1vw 1vw;
+  font-family: Tahoma, Geneva, sans-serif;
+  color: rgb(133, 133, 133);
+  background-color: rgb(240,240,240);
+}
+
+#contact_submit {
+  font-family: Tahoma, Geneva, sans-serif;
+  color: rgb(240, 240, 240);
+  background-color: rgb(133, 133, 133);
+}
+
+#contact_submit:hover, #contact_submit:disabled {
+  color: rgb(133, 133, 133);
+  background-color: #00FFFF;
+}
+
 .form-group {
   font-family: Tahoma, Geneva, sans-serif;
   color: rgb(100, 100, 100);

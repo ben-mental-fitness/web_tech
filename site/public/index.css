@@ -98,6 +98,11 @@ html, body {
   text-align: center;
 }
 
+/* Data page styling */
+p[id^='data_have_']:hover {
+  color: white;
+}
+
 /* contact page styling */
 #contact_page {
   width: 95vw;
@@ -126,6 +131,10 @@ html, body {
 }
 
 /* story pages styling */
+#story_container {
+  position: absolute;
+}
+
 #story_not_found_text {
   font-family: Tahoma, Geneva, sans-serif;
   color: #00FFFF;

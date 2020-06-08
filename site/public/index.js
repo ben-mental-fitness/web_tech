@@ -61,7 +61,7 @@ function hoverclick(d) {
       d.target.setAttribute("r", r_orig - 3);
     } else {
       stop_shrinking();
-      window.location.href = '/stories/?' + d.target.id;
+      window.location.href = '/stories/?s=' + d.target.id;
     };
 
   }, 100);

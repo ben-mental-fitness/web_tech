@@ -35,20 +35,12 @@ async function fetch_categories_data(){
 
 function data_have_click(source_id, index) {
   var data_have = JSON.parse(data[index][source_id]);
-  // var text = '<h1><b>' + data_have.headline + '</b></h1>'
-  //           +'<p><b>Published:</b> ' + data_have.published + '</p>'
-  //           +'<p><b>Accessed:</b> ' + data_have.accessed + '</p>'
-  //           +'<p><b>Description:</b> ' + data_have.snippet + '</p>'
-  //           +'<a href="' + data_have.reference_link + '">'
-  //           + data_have.author + '</a>';
-
-  var text = data_have.headline.toUpperCase() + '\n'
-            +'Published: ' + data_have.published + '\n'
-            +'Accessed: ' + data_have.accessed + '\n'
-            +'Description: ' + data_have.snippet + '\n'
-            +'Author: ' + data_have.author + '\n'
-            +'Link: ' + data_have.reference_link;
-  alert(text);
+  document.getElementById("data-headline").innerHTML = data_have.headline;
+  document.getElementById("data-published").innerHTML = '<b>Published:</b> ' + data_have.published;
+  document.getElementById("data-accessed").innerHTML = '<b>Accessed:</b> ' + data_have.accessed;
+  document.getElementById("data-snippet").innerHTML = '<b>Description:</b> ' + data_have.snippet;
+  document.getElementById("data-author").innerHTML = data_have.author;
+  document.getElementById("data-author").setAttribute("href", data_have.reference_link);
   return;
 }
 

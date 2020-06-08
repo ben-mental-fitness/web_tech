@@ -75,11 +75,11 @@ async function handle(request, response) {
 
     if (request.method == 'POST' & params != "") {
       return handle_post(response, request, params, url);
-    } else if (request.method == 'GET' & params != "" & url != "/stories/index.html")  {
+    } else if (request.method == 'GET' & params != "" & !url.includes("stories"))  {
       return handle_get(response, request, params, url);
     } else {
       content = await fs.readFile(file);
-      content = await handle_file(content, file, type, params);
+      [content, type] = await handle_file(content, file, type, params);
     }
     deliver(response, type, content);
 }
@@ -194,39 +194,41 @@ async function load_stories() {
 // Params are any parameters given in the URL or an empty string
 async function handle_file(content, file, type, params) {
   var content_str = content.toString("utf8");
+  var page = file.match("/[^/]*/(?!.*/)")[0].slice(1, -1); // Directory of file
 
-  if (["application/xhtml+xml"].includes(type)) {
-    var page = file.match("/[^/]*/(?!.*/)")[0].slice(1, -1); // Directory of file
+  if ("application/xhtml+xml" == type) {
     if (page != "public") content_str = await add_header_and_footer(content_str, page);
     content_str = handle_stories_dropdown(content_str);
+    if (page == "public") content_str = handle_file_public(content_str, type, params);
+    if (page == "stories") content_str = await handle_file_stories(content_str, type, params);
 
-    switch(page) {
-        case "public":
-          console.log("public");
-          content_str = handle_file_public(content_str, type, params);
+    // In lieu of qs
+    var param_dict = params.split("&");
+    param_dict = param_dict.reduce((acc, x) => {
+      acc[x.split("=")[0]] = x.split("=")[1];
+      return acc;
+    }, []);
+
+    if (page == "stories" & Object.keys(param_dict).length > 1) {
+      switch (param_dict.s) {
+        case "one_earth":
+          content_str = "One Earth";
+          console.log(content_str);
+          // content_str = handle_one_earth(param_dict);
           break;
-        case "about":
-          console.log("about");
-          break;
-        case "contact":
-          console.log("contact");
-          break;
-        case "data":
-          console.log("data");
-          break;
-        case "stories":
-          console.log("stories");
-          content_str = handle_file_stories(content_str, type, params);
+        case "the_passage_of_time":
+          content_str = await handle_the_passage_of_time(param_dict);
+          type = "application/json";
           break;
         default:
-          console.log("Page not found!")
           break;
+      }
     }
 
     content = Buffer.from(content_str, "utf-8");
   }
 
-  return content;
+  return [content, type];
 }
 
 // Load stories into dropdown menu
@@ -234,7 +236,7 @@ function handle_stories_dropdown(content) {
   var dropdown_html = "";
   for (let s of stories_list) {
     var s_page = s.toLowerCase().replace(/[^\w\s]/g, "").replace(/ /g, "_");
-    var s_html = ('<a class="dropdown-item" href="/stories/\?$">£</a>').replace("$", s_page).replace("£", s);
+    var s_html = ('<a class="dropdown-item" href="/stories/\?s=$">£</a>').replace("$", s_page).replace("£", s);
     dropdown_html = dropdown_html.concat(s_html);
   }
 
@@ -318,13 +320,18 @@ async function insert_message_into_db(response, content) {
   return deliver(response, "text/plain", "");
 }
 
-function handle_file_stories(content, type, params) {
+async function handle_file_stories(content, type, params) {
   if (type != "application/xhtml+xml") {
     return content;
   };
 
-  if (!params.includes("one_earth") & !params.includes("the_passage_of_time")){
-    console.log(params);
+  if (params.includes("one_earth")){
+    content = content.replace('<!-- $story_js -->', '<script type = "text/javascript" src = "/stories/one_earth.js" defer="defer"></script>');
+  } else if (params.includes("the_passage_of_time")) {
+    content = content.replace('<!-- $story_js -->', '<script type = "text/javascript" src = "/stories/the_passage_of_time.js" defer="defer"></script>');
+    //var extra_html = await fs.readFile("./public/stories/the_passage_of_time.html");
+    //content = content.replace('<!-- $story_html -->', extra_html.toString('utf8'));
+  } else {
     content = content.replace('<!-- $story_js -->', '<script type = "text/javascript" src = "/stories/default.js" defer="defer"></script>');
   }
 
@@ -373,4 +380,33 @@ async function get_categories_data(response) {
       }
   } catch (e) { console.log(e); return fail(response, Error, "Database error."); }
   return deliver(response, "text/plain", JSON.stringify(as));
+}
+
+async function handle_the_passage_of_time(param_dict) {
+  try {
+      var db = await sqlite.open(data_db);
+      var content = [];
+
+      // Get case data for countries & country name
+      for (let country_id = 0; country_id < 195; country_id++) {
+        try {
+          var as = await db.all('select * from cases_country_' + country_id);
+          var country = await db.all('select name from countries where country_id = ?', country_id);
+          content.push({ country : country[0].name, data : as});
+        } catch (e) {console.log("Country not found with id " + country_id);}
+      }
+
+      // Get sources
+      var sources = await db.all('select source_id, author, reference_link from sources');
+      for (var country in content) {
+        for (var date in content[country].data) {
+          var source_id = content[country].data[date].source_id;
+          content[country].data[date].source_author = sources[source_id].author;
+          content[country].data[date].source_link = sources[source_id].reference_link;
+          delete content[country].data[date].source_id;
+        }
+      }
+
+  } catch (e) { console.log(e); return {"ERROR" : "FAIL"}; }
+  return JSON.stringify(content);
 }

@@ -393,7 +393,7 @@ async function handle_the_passage_of_time(param_dict) {
           var as = await db.all('select * from cases_country_' + country_id);
           var country = await db.all('select name from countries where country_id = ?', country_id);
           content.push({ country : country[0].name, data : as});
-        } catch (e) {console.log("Country not found with id " + country_id);}
+        } catch (e) {console.log("No data for country with id " + country_id);}
       }
 
       // Get sources

@@ -4,6 +4,9 @@ var all_data;
 var svg;
 var width;
 var height;
+var x_val;
+var y_val;
+var country_selected;
 
 // Handle response
 async function fetch_data(){
@@ -19,8 +22,6 @@ async function fetch_data(){
 }
 
 function button_click() {
-  let x_val = prompt("X-Axis", "cases");
-  let y_val = prompt("Y-Axis", "deaths");
   let x_max = prompt("X-Max", "0");
   let y_max = prompt("Y-Max", "0");
   draw_graph(x_val, y_val, x_max, y_max);
@@ -32,13 +33,52 @@ function button_click() {
 addEventListener('load', start);
 async function start() {
 
+  // Create x-dropdown
+  d3.select("#story_container")
+    .append("select")
+    .attr("id", "select_x");
+
+  var options = ["cases", "deaths", "tests"];
+  d3.select("#select_x")
+     .selectAll('myOptions')
+     .data(options)
+     .enter()
+     .append('option')
+     .text(function (d) { return d; }) // text showed in the menu
+     .attr("value", function (d) { return d; })
+  x_val = "cases";
+
+  d3.select("#select_x").on("change", function(d) {
+    x_val = d3.select(this).property("value");
+    draw_graph(x_val, y_val, 0, 0);
+  })
+
+  // Create y-dropdown
+  d3.select("#story_container")
+    .append("select")
+    .attr("id", "select_y");
+
+  d3.select("#select_y")
+     .selectAll('myOptions')
+     .data(options)
+     .enter()
+     .append('option')
+     .text(function (d) { return d; }) // text showed in the menu
+     .attr("value", function (d) { return d; })
+  y_val = "cases";
+
+  d3.select("#select_y").on("change", function(d) {
+    y_val = d3.select(this).property("value");
+    draw_graph(x_val, y_val, 0, 0);
+  })
+
   // Load Data
   await fetch_data();
 
   var button = document.createElement('button');
   button.class = "story_button";
   button.addEventListener('click', button_click);
-  button.innerHTML = "Change Graph";
+  button.innerHTML = "Change Max Axis Values";
   document.getElementById("story_container").appendChild(button);
 
   // Create graph
